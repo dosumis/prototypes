@@ -1,0 +1,528 @@
+format-version: 1.2
+data-version: 1.21
+date: 24:11:2012 12:04
+saved-by: djs93
+auto-generated-by: OBO-Edit 2.2
+subsetdef: BrainName "BrainName project terms"
+subsetdef: BrainName_Embargo "Terms to hold back pending BrainName paper publication."
+subsetdef: cur "cur"
+subsetdef: deprecated "warning of impending obsoletion"
+subsetdef: EmbDevSlim "EmbDevSlim"
+subsetdef: FB_gloss "terms for FlyBase glossary page"
+subsetdef: FlyTed "Testis slim"
+subsetdef: FT_new "FlyTed temp subset for edit tracking purposes"
+subsetdef: hidden_assertion "Stanza contains hidden assertion."
+subsetdef: high_level_annotation_qc "High-level terms not to be used for direct annotation"
+subsetdef: larval_OF "larval olfactory system"
+subsetdef: olfactory_system_draft "adult olfactory system model"
+subsetdef: RD "terms for rd test ontology"
+synonymtypedef: BRAIN_NAME_ABV "BrainName official abbreviation"
+default-namespace: fly_anatomy.ontology
+remark: CVS revision number 1.21. Contains terms imported from GO revision: 1.3352, 23:07:2012 10:59, from CHEBI version 87, 05:01:2012 11:31 and from PATO - datestamp = 13:06:2011 11:15. Use of this ontology requires a reasoner. While this OBO file is the master edited version of fbbt, for most purposes it is better viewed and queried using the accompanying OWL version (fly_anatomy_XP.owl revision 1.6) and Protege 4.1+ or the OWL-API.  Recommended reasoners are FaCT++ and ELK.
+ontology: fbbt
+
+[Term]
+id: FBbt:00001380
+name: neuroblast NB7-1
+def: "Neuroblast NB7-1 is the largest neuroblast lineage generating 40 cells or more, including the U motorneurons and a large number of local interneurons. It also frequently generates the putative segment boundary cells (http://www.neuro.uoregon.edu/doelab/lineages/NB7-1.html)." [FlyBase:FBrf0055900, FlyBase:FBrf0073294, FlyBase:FBrf0084809, FlyBase:FBrf0112030, http://www.neuro.uoregon.edu/doelab/lineages/NB7-1.html]
+subset: cur
+subset: EmbDevSlim
+
+[Term]
+id: FBbt:00001521
+name: 7-1Ica
+def: "Contralaterally projecting interneuron originating from 7-1I. It projects through the middle of the anterior commissure." [FlyBase:FBrf0090460]
+comment: See Bossing et al., (1996) for a diagram.
+subset: cur
+xref: VFB:FBbt_00001521
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00001522
+name: 7-1Icp
+def: "Contralaterally projecting interneuron originating from 7-1I. It projects through the posterior border of the posterior commissure." [FlyBase:FBrf0090460]
+comment: See Bossing et al., (1996) for a diagram.
+subset: cur
+xref: VFB:FBbt_00001522
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00001558
+name: 7-1M
+subset: cur
+xref: VFB:FBbt_00001558
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00001564
+name: U neuron
+def: "Motor neuron developing from the neuroblast NB7-1 lineage. The U neurons collectively innervate the following muscles: 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 19, and 20." [FlyBase:FBrf0064795, FlyBase:FBrf0112030, FlyBase:FBrf0138252, FlyBase:FBrf0190540, http://www.neuro.uoregon.edu/doelab/lineages/texts/71%20description.html]
+subset: cur
+subset: EmbDevSlim
+synonym: "U/CQ neuron" EXACT [FlyBase:FBrf0167497]
+xref: VFB:FBbt_00001564
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00001565
+name: U1 neuron
+def: "Motor neuron developing from the first ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0190540]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001565
+is_a: FBbt:00001564 ! U neuron
+relationship: develops_directly_from FBbt:00006035 ! ganglion mother cell GMC7-1a
+
+[Term]
+id: FBbt:00001566
+name: U2 neuron
+def: "Motor neuron developing from the second ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0190540]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001566
+is_a: FBbt:00001564 ! U neuron
+relationship: develops_directly_from FBbt:00006036 ! ganglion mother cell GMC7-1b
+
+[Term]
+id: FBbt:00001567
+name: U3 neuron
+def: "Motor neuron developing from the third ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0190540]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001567
+is_a: FBbt:00001564 ! U neuron
+relationship: develops_directly_from FBbt:00006037 ! ganglion mother cell GMC7-1c
+
+[Term]
+id: FBbt:00001569
+name: U1sib neuron
+def: "Sibling neuron to the U1 neuron developing from the first ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0102831, FlyBase:FBrf0162056]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001569
+relationship: develops_directly_from FBbt:00006035 ! ganglion mother cell GMC7-1a
+
+[Term]
+id: FBbt:00001570
+name: U2sib neuron
+def: "Sibling neuron to the U2 neuron developing from the second ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0102831, FlyBase:FBrf0162056]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001570
+relationship: develops_directly_from FBbt:00006036 ! ganglion mother cell GMC7-1b
+
+[Term]
+id: FBbt:00001571
+name: U3sib neuron
+def: "Sibling neuron to the U3 neuron developing from the third ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0102831, FlyBase:FBrf0162056]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00001571
+relationship: develops_directly_from FBbt:00006037 ! ganglion mother cell GMC7-1c
+
+[Term]
+id: FBbt:00002303
+name: abdominal U1 neuron
+subset: cur
+xref: VFB:FBbt_00002303
+is_a: FBbt:00001565 ! U1 neuron
+
+[Term]
+id: FBbt:00002304
+name: abdominal 1 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 1 (FBbt:00001748)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002304
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002305
+name: abdominal 2 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 2 (FBbt:00001749)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002305
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002306
+name: abdominal 3 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 3 (FBbt:00001750)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002306
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002307
+name: abdominal 4 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 4 (FBbt:00001751)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002307
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002308
+name: abdominal 5 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 5 (FBbt:00001752)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002308
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002309
+name: abdominal 6 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 6 (FBbt:00001753)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002309
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002310
+name: abdominal 7 U1 neuron
+def: "Any abdominal U1 neuron (FBbt:00002303) that is part of some larval abdominal segment 7 (FBbt:00001754)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002310
+is_a: FBbt:00002303 ! abdominal U1 neuron
+
+[Term]
+id: FBbt:00002311
+name: abdominal U2 neuron
+subset: cur
+xref: VFB:FBbt_00002311
+is_a: FBbt:00001566 ! U2 neuron
+
+[Term]
+id: FBbt:00002312
+name: abdominal 1 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 1 (FBbt:00001748)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002312
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002313
+name: abdominal 2 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 2 (FBbt:00001749)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002313
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002314
+name: abdominal 3 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 3 (FBbt:00001750)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002314
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002315
+name: abdominal 4 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 4 (FBbt:00001751)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002315
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002316
+name: abdominal 5 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 5 (FBbt:00001752)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002316
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002317
+name: abdominal 6 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 6 (FBbt:00001753)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002317
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00002318
+name: abdominal 7 U2 neuron
+def: "Any abdominal U2 neuron (FBbt:00002311) that is part of some larval abdominal segment 7 (FBbt:00001754)." [FBC:auto_generated_definition]
+subset: cur
+xref: VFB:FBbt_00002318
+is_a: FBbt:00002311 ! abdominal U2 neuron
+
+[Term]
+id: FBbt:00006035
+name: ganglion mother cell GMC7-1a
+def: "First born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (Isshiki et al., 2001).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1a" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006036
+name: ganglion mother cell GMC7-1b
+def: "Second born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (Isshiki et al., 2001).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1b" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006037
+name: ganglion mother cell GMC7-1c
+def: "Third born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (FBgn0001325).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1c" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006038
+name: ganglion mother cell GMC7-1d
+def: "Fourth born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (Isshiki et al., 2001).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1d" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006039
+name: ganglion mother cell GMC7-1e
+def: "Fifth born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (Isshiki et al., 2001).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1e" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006040
+name: ganglion mother cell GMC7-1f
+def: "Sixth born ganglion mother cell of neuroblast NB7-1." [FlyBase:FBrf0064795, FlyBase:FBrf0090460, FlyBase:FBrf0138252, http://www.neuro.uoregon.edu/doelab/lineages/texts/71 description.html]
+comment: In the wildtype neuroblast 7-1 lineage, GMC7-1a and GMC7-1b and their progeny are hb (FBgn0001180) and Kr (FBgn0001325) positive. Subsequent GMCs do not express hb (Isshiki et al., 2001).
+subset: cur
+subset: EmbDevSlim
+synonym: "ganglion mother cell GMC 7-1f" EXACT []
+relationship: develops_from FBbt:00001380 ! neuroblast NB7-1
+
+[Term]
+id: FBbt:00006041
+name: U4 neuron
+def: "Motor neuron developing from the fourth ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0190540]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00006041
+is_a: FBbt:00001564 ! U neuron
+relationship: develops_from FBbt:00006038 ! ganglion mother cell GMC7-1d
+
+[Term]
+id: FBbt:00006042
+name: U4sib neuron
+def: "Sibling neuron to the U4 neuron developing from the fourth ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0102831, FlyBase:FBrf0162056]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00006042
+relationship: develops_from FBbt:00006038 ! ganglion mother cell GMC7-1d
+
+[Term]
+id: FBbt:00006043
+name: U5 neuron
+def: "Motor neuron developing from the fifth ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0190540]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00006043
+is_a: FBbt:00001564 ! U neuron
+relationship: develops_from FBbt:00006039 ! ganglion mother cell GMC7-1e
+
+[Term]
+id: FBbt:00006044
+name: U5sib neuron
+def: "Sibling neuron to the U5 neuron developing from the fifth ganglion mother cell that differentiates from neuroblast NB7-1." [FlyBase:FBrf0102831, FlyBase:FBrf0162056]
+subset: cur
+subset: EmbDevSlim
+xref: VFB:FBbt_00006044
+relationship: develops_from FBbt:00006039 ! ganglion mother cell GMC7-1e
+
+[Typedef]
+id: capable_of
+name: capable_of
+def: "A relation between a material entity (such as a cell) and a process. This is a shortcut relation, translation rule for which is: capable_of P <-> bearer_of (some realized_by only P). Example: osteoclast capable of bone resorption" [ROC:SJM]
+comment: This relation uses a more restricted domain and range than the ro original as this ontology does not yet import sufficiently abstract classes.  This should change in future.
+xref: RO:0002215
+expand_expression_to: "BFO_0000053 some (BFO_0000054 only ?Y)" []
+
+[Typedef]
+id: capable_of_part_of
+name: capable_of_part_of
+def: "x capable of part of Y if and only if x is the bearer or some dependent continuant that is realized by only part of some Y" [ROC:DOS]
+comment: This relation uses a more restricted domain and range than the ro original as this ontology does not yet import sufficiently abstract classes.  This should change in future.
+xref: RO:0002000
+holds_over_chain: capable_of part_of
+expand_expression_to: "BFO_0000053 some (BFO_0000054 only (BFO_0000050 some ?Y))" []
+
+[Typedef]
+id: connected_to
+name: connected_to
+comment: Corresponds to OBO_REL:connected_to in http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/OBO_REL/ro_proposed_edit.obo. As this relation in not in the main relations ontology file (ro.obo) I have avoided adding an xref.
+
+[Typedef]
+id: develops_directly_from
+name: develops_directly_from
+is_a: develops_from ! develops_from
+
+[Typedef]
+id: develops_from
+name: develops_from
+is_transitive: true
+
+[Typedef]
+id: electrically_synapsed_to
+name: electrically_synapsed_to
+creation_date: 2010-01-06T06:53:45Z
+
+[Typedef]
+id: fasciculates_with
+name: fasciculates_with
+def: "Relation between a neuron and the neuron projection bundle it fasciculates with. FOL: x fasciculates_with y iff: exists some 'neuron ; CL_0000540'(x), some 'neuron projection bundle ; CARO_0001001'(y), some 'neuron projection ; GO_0043005'(np), np part_of x AND np overlaps y AND np aligned_with y" [FBC:DOS]
+xref: RO:0002101
+is_a: partially_overlaps ! partially_overlaps
+
+[Typedef]
+id: has_function_in
+name: has_function_in
+def: "X has function Y if and only if X is the bearer of some function that is realized by only Y" []
+comment: Corresponds to OBO_REL:has_function_realized_as_process in http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/OBO_REL/ro_proposed_edit.obo. As this relation in not in the main relations ontology file (ro.obo) I have avoided adding an xref.
+xref: RO:0002216
+expand_expression_to: "BFO_0000053 some (BFO_0000054 only ?Y)" []
+
+[Typedef]
+id: has_function_in_part_of
+name: has_function_in_part_of
+def: "X has function in part of Y if and only if x is the bearer of some function that is realized by only part of some Y" []
+xref: RO:0002002
+holds_over_chain: has_function_in part_of
+transitive_over: part_of ! part_of
+expand_expression_to: "BFO_0000053 some (BFO_0000054 only (BFO_0000050 some ?Y))" []
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: relationship
+xref: BFO:0000051
+xref: OBO_REL:has_part
+is_transitive: true
+is_a: overlaps ! overlaps
+inverse_of: part_of ! part_of
+
+[Typedef]
+id: has_postsynaptic_terminals_in
+name: has_postsynaptic_terminal_in
+comment: Relation between a neuron and the structure in which its dendrite receives synapses.
+xref: RO:0002110
+is_a: has_synaptic_terminals_in ! has_synaptic_terminal_in
+transitive_over: part_of ! part_of
+expand_expression_to: "BFO_0000051 some (GO_0045211 and BFO_0000050 some (GO_0045202 and BFO_0000050 some ?Y))" []
+
+[Typedef]
+id: has_presynaptic_terminals_in
+name: has_presynaptic_terminal_in
+xref: RO:0002113
+is_a: has_synaptic_terminals_in ! has_synaptic_terminal_in
+transitive_over: part_of ! part_of
+expand_expression_to: "BFO_0000051 some (GO_0042734 that BFO_0000050 some (GO_0045202 that BFO_0000050 some ?Y))" []
+
+[Typedef]
+id: has_quality
+name: has_quality
+comment: Corresponds to OBO_REL:has_quality in http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/OBO_REL/ro_proposed_edit.obo. As this relation in not in the main relations ontology file (ro.obo) I have avoided adding an xref.
+
+[Typedef]
+id: has_soma_location
+name: has_soma_location
+def: "Relation between a neuron and an anatomical structure that its soma is part of." [FBC:DOS]
+xref: RO:0002100
+is_a: overlaps ! overlaps
+transitive_over: part_of ! part_of
+expand_expression_to: "BFO_0000051 some (GO_0043025 and BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: has_synaptic_terminals_in
+name: has_synaptic_terminal_in
+def: "A relation between a neuron and some structure in which it either chemically synapses to some target or in which it receives (chemical) synaptic input." [FBC:DOS]
+comment: expands to - X overlaps some ('synapse ; GO_0045202' that part_of some ?Y)
+xref: RO:0002130
+is_a: overlaps ! overlaps
+transitive_over: part_of ! part_of
+expand_expression_to: "RO_0002131 some (GO_0045202 and BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: has_synaptic_terminals_of
+name: has_synaptic_terminals_of
+is_a: overlaps ! overlaps
+inverse_of: has_synaptic_terminals_in ! has_synaptic_terminal_in
+
+[Typedef]
+id: innervated_by
+name: innervated_by
+def: "The relationship between a region containing synaptic terminals and the neuron projection bundle that carries the projections that make those synapses." [FBC:DOS]
+inverse_of: innervates ! innervates
+
+[Typedef]
+id: innervates
+name: innervates
+def: "Relation between a 'neuron projection bundle' and a region in which one or more of its component neuron projections either synapses to targets or receives synaptic input. T innervates some R Expands_to: T has_fasciculating_neuron_projection that synapse_in some R." [FBC:DOS]
+xref: RO:0002134
+transitive_over: part_of ! part_of
+expand_expression_to: "RO_0002132 some (GO_0043005 that (RO_0002131 some (GO_0045202 that BFO_0000050 some ?Y)))" []
+
+[Typedef]
+id: overlaps
+name: overlaps
+xref: RO:0002131
+holds_over_chain: has_part overlaps
+holds_over_chain: has_part part_of
+transitive_over: part_of ! part_of
+expand_expression_to: "BFO_0000051 some (BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: relationship
+xref: BFO:0000050
+xref: OBO_REL:part_of
+is_transitive: true
+is_a: overlaps ! overlaps
+
+[Typedef]
+id: partially_overlaps
+name: partially_overlaps
+xref: RO:0002151
+is_a: overlaps ! overlaps
+
+[Typedef]
+id: releases_neurotransmitter
+name: releases_neurotransmitter
+def: "Instance level: x releases_neurotransmitter y iff:: for some 'neurotransmitter secretion ; GO:0007269' (ns), x has_function_in ns AND ns has_participant y." [FBC:DOS]
+comment: Relation between a neuron and the neurotransmitter it releases.
+
+[Typedef]
+id: secretes_hormone
+name: secretes_hormone
+def: "Instance level: x secretes_hormone y iff:: for some 'hormone secretion ; GO:0046879' (hs), x has_function_in hs AND hs has_participant y." [FBC:DOS]
+comment: Relation between a secretory cell or gland and the hormone it secretes.
+
+[Typedef]
+id: synapsed_by
+name: synapsed_by
+def: "Relation between an anatomical structure and a neuron that chemically synapses to it." [FBC:DOS]
+xref: RO:0002103
+expand_expression_to: "BFO_0000051 some (GO_0045211 that BFO_0000050 some (GO_0045202 that BFO_0000051 some (GO_0042734 that BFO_0000050 some ?Y)))" []
+
+[Typedef]
+id: synapsed_to
+name: synapsed_to
+def: "Relation between a neuron and an anatomical structure that it chemically synapses to." [FBC:DOS]
+xref: RO:0002120
+expand_expression_to: "BFO_0000051 some (GO_0042734 that BFO_0000050 some (GO_0045202 that BFO_0000051 some (GO_0045211 that BFO_0000050 some ?Y)))" []
+

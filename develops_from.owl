@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/10/Ontology1353523681702/develops_from.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/10/Ontology1353523681702/develops_from.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/10/Ontology1353523681702/develops_from.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fbbt.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_17170c48_8481_4afa_9602_440cfb4a3a86 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_17170c48_8481_4afa_9602_440cfb4a3a86">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">develops_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_1a0ff938_fdce_4f68_ab2c_251cb4048d9c -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_1a0ff938_fdce_4f68_ab2c_251cb4048d9c">
+        <rdfs:label xml:lang="en">develops_by_cell_fission_from</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_8ddd4326_8694_4d11_9c39_cf833609aa9a"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_46ae74a4_1dbc_4064_b789_df01083b5330 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_46ae74a4_1dbc_4064_b789_df01083b5330">
+        <rdf:type rdf:resource="&owl;ReflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_577f8408_ee18_4f0f_8c1d_d370609d4466 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_577f8408_ee18_4f0f_8c1d_d370609d4466">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">develops_by_cell_transformation_of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_8550ba80_93e1_41d1_aac3_36f45502eda2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_6a202e87_6c5c_4036_b76d_1438be61399a -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_6a202e87_6c5c_4036_b76d_1438be61399a">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">develops_into</rdfs:label>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/scratch_17170c48_8481_4afa_9602_440cfb4a3a86"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_752b000c_694e_4cfd_b682_ea62fb59577e -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_752b000c_694e_4cfd_b682_ea62fb59577e">
+        <rdfs:label xml:lang="en">develops_by_cell_budding_from</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_1a0ff938_fdce_4f68_ab2c_251cb4048d9c"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_8550ba80_93e1_41d1_aac3_36f45502eda2 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_8550ba80_93e1_41d1_aac3_36f45502eda2">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">develops_in_cell_lineage_from</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_17170c48_8481_4afa_9602_440cfb4a3a86"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_8ddd4326_8694_4d11_9c39_cf833609aa9a -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_8ddd4326_8694_4d11_9c39_cf833609aa9a">
+        <rdfs:label xml:lang="en">develops_directly_in_cell_lineage_from</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_8550ba80_93e1_41d1_aac3_36f45502eda2"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_a1105d82_4aa8_4913_a3f2_0feef3be3f6a"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_a1105d82_4aa8_4913_a3f2_0feef3be3f6a -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_a1105d82_4aa8_4913_a3f2_0feef3be3f6a">
+        <rdfs:label xml:lang="en">derives_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_aa28a765_4de7_4aff_a277_3043b11e72b3 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_aa28a765_4de7_4aff_a277_3043b11e72b3">
+        <rdfs:label xml:lang="en">develop_by_cell_fusion_from</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_8ddd4326_8694_4d11_9c39_cf833609aa9a"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_b76f8fe9_f04e_4cda_b39a_3be7ba122bf6 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_b76f8fe9_f04e_4cda_b39a_3be7ba122bf6">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">proper_part_of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_46ae74a4_1dbc_4064_b789_df01083b5330"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001380">
+        <rdfs:label xml:lang="en">neuroblast NB7-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_a44ea8de_a250_4ed0_b6da_21c3bb49b309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001564">
+        <rdfs:label xml:lang="en">U neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_8550ba80_93e1_41d1_aac3_36f45502eda2"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001571">
+        <rdfs:label xml:lang="en">U1sib neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_1a0ff938_fdce_4f68_ab2c_251cb4048d9c"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBbt_00006035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00006035">
+        <rdfs:label xml:lang="en">GMC 7-1a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_752b000c_694e_4cfd_b682_ea62fb59577e"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00006036">
+        <rdfs:label xml:lang="en">GMC 7-1b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37">
+        <rdfs:label xml:lang="en">ganglion mother cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_752b000c_694e_4cfd_b682_ea62fb59577e"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_a44ea8de_a250_4ed0_b6da_21c3bb49b309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_253e3f87_a79d_4d1c_b442_8d0287663fb8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_253e3f87_a79d_4d1c_b442_8d0287663fb8">
+        <rdfs:label xml:lang="en">GMC 7-1d</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_37f0d1f6_dfd2_4c79_8d14_914710e1bfea -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_37f0d1f6_dfd2_4c79_8d14_914710e1bfea">
+        <rdfs:label xml:lang="en">glial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_a44ea8de_a250_4ed0_b6da_21c3bb49b309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_a44ea8de_a250_4ed0_b6da_21c3bb49b309">
+        <rdfs:label xml:lang="en">neuroblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_a67a9c4d_9c3d_459e_a15f_1aeb077e8004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_a67a9c4d_9c3d_459e_a15f_1aeb077e8004">
+        <rdfs:label xml:lang="en">GMC 7-1c</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153">
+        <rdfs:label xml:lang="en">neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_c358a19b_695e_48fa_bb53_f184800b1041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_c358a19b_695e_48fa_bb53_f184800b1041">
+        <rdfs:label xml:lang="en">GMC 7-1e</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67">
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.5.1912) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/10/Ontology1353576600965/expression_with_negation.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/10/Ontology1353576600965/expression_with_negation.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/10/Ontology1353576600965/expression_with_negation.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0">
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_263e54c9_958c_4456_b6ff_b7434b4690eb -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_263e54c9_958c_4456_b6ff_b7434b4690eb">
+        <rdfs:label xml:lang="en">expressed_throughout</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda">
+        <rdfs:label xml:lang="en">expressed_in</rdfs:label>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_263e54c9_958c_4456_b6ff_b7434b4690eb"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499">
+        <rdfs:label xml:lang="en">overlaps</rdfs:label>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_0c5835d3_f792_44f3_9d14_fc47a60081e8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_0c5835d3_f792_44f3_9d14_fc47a60081e8">
+        <rdfs:label xml:lang="en">antennal lobe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_ef5423fd_9a7b_409e_bc63_2296188cda6e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_160ad621_b27c_49b6_9e9a_86dde9bcd9e6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_160ad621_b27c_49b6_9e9a_86dde9bcd9e6">
+        <rdfs:label xml:lang="en">central complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_ef5423fd_9a7b_409e_bc63_2296188cda6e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_20972b28_e4a4_4e1f_90e9_18993fa21a89 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_20972b28_e4a4_4e1f_90e9_18993fa21a89">
+        <rdfs:label xml:lang="en">calyx</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_278a57e9_dc61_4364_9b3f_ea5e572b247e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_278a57e9_dc61_4364_9b3f_ea5e572b247e">
+        <rdfs:label xml:lang="en">pedunculus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_523e2bc8_4f47_43b2_800c_2a5005cf522a -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_523e2bc8_4f47_43b2_800c_2a5005cf522a">
+        <rdfs:label xml:lang="en">neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5926332d_538c_4b19_84b8_59d183b359f0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_5926332d_538c_4b19_84b8_59d183b359f0">
+        <rdfs:label xml:lang="en">transgene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_793fe391_903d_4bb3_88e4_89ba5ca78966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_793fe391_903d_4bb3_88e4_89ba5ca78966">
+        <rdfs:label xml:lang="en">DL1 adPN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_523e2bc8_4f47_43b2_800c_2a5005cf522a"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_20972b28_e4a4_4e1f_90e9_18993fa21a89"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_82ca5acf_b4c4_41e6_b19e_248a2c784499"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_ed2eb0d9_20ae_462a_85a8_5d1531301768"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Adding Probe axiom:
+DL1 adPN SubClassOf: overlaps some &apos;fan-shaped body&apos;
+
+=&gt; inconsistency due to:
+&apos;fan-shaped body&apos; SubClassOf part_of some &apos;central complex&apos;
+expressed_in o part_of SubPropertyOf expressed_in
+
+GH146 Type: expressed_throughout some &apos;DL1 adPN&apos;
+      expressed_throughout o overlaps SubPropertyOf expressed_in
+      DL1 adPN SubClassOf: overlaps some &apos;fan-shaped body&apos;
+      &apos;fan-shaped body&apos; SubClassOf part_of some &apos;central complex&apos;
+
+      expressed_in o part_of SubPropertyOf expressed_in
+      GH146 Type: not (expressed_in some &apos;central complex&apos;)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_98c0ae14_91ab_405e_b038_48b1c04b9428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_98c0ae14_91ab_405e_b038_48b1c04b9428">
+        <rdfs:label xml:lang="en">DL2 adPN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_523e2bc8_4f47_43b2_800c_2a5005cf522a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_af3a4331_5728_409a_a3c6_f07697c4a8c5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_af3a4331_5728_409a_a3c6_f07697c4a8c5">
+        <rdfs:label xml:lang="en">brain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_f39c1d02_9047_4154_aa64_82c6c968524b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3">
+        <rdfs:label xml:lang="en">synaptic neuropil subdomain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_de7cf734_31a8_4577_8fc5_3bb7ca6d18c9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_de7cf734_31a8_4577_8fc5_3bb7ca6d18c9">
+        <rdfs:label xml:lang="en">fan-shaped body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_160ad621_b27c_49b6_9e9a_86dde9bcd9e6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_ed2eb0d9_20ae_462a_85a8_5d1531301768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_ed2eb0d9_20ae_462a_85a8_5d1531301768">
+        <rdfs:label xml:lang="en">AL glomerulus DL1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_c1e8698d_9e04_437f_a661_0b3ac7f8a7c3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_0c5835d3_f792_44f3_9d14_fc47a60081e8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_ef5423fd_9a7b_409e_bc63_2296188cda6e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_ef5423fd_9a7b_409e_bc63_2296188cda6e">
+        <rdfs:label xml:lang="en">synaptic neuropil domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_f39c1d02_9047_4154_aa64_82c6c968524b -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_f39c1d02_9047_4154_aa64_82c6c968524b">
+        <rdfs:label xml:lang="en">ganglion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d">
+        <rdfs:label xml:lang="en">mushroom body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_ef5423fd_9a7b_409e_bc63_2296188cda6e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_af3a4331_5728_409a_a3c6_f07697c4a8c5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_ea1d2db7_86ac_46d9_85bb_4e991fd090c2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/scratch_ea1d2db7_86ac_46d9_85bb_4e991fd090c2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/scratch_5926332d_538c_4b19_84b8_59d183b359f0"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_263e54c9_958c_4456_b6ff_b7434b4690eb"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_793fe391_903d_4bb3_88e4_89ba5ca78966"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_4069cc78_2f66_42ed_b12d_4610f6826dda"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_160ad621_b27c_49b6_9e9a_86dde9bcd9e6"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdfs:label xml:lang="en">GH146</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Axiom>
+        <rdfs:comment>Obviously tedious to add all, but could easily be done programatically for major neuropils.  To be complete - would have to be done between all subdomains of each domain too.
+
+Program: 
+query for all synaptic neuropil domains that are part_of the adult brain.  Make spatial disjoints between all. 
+repeat for all subdomains part of each neuropil.
+</rdfs:comment>
+        <owl:annotatedProperty rdf:resource="&owl;disjointWith"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <owl:annotatedSource>
+            <owl:Restriction>
+                <owl:disjointWith>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_f5d04207_f37f_42cb_b036_cede2a01e72d"/>
+                    </owl:Restriction>
+                </owl:disjointWith>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_0c5835d3_f792_44f3_9d14_fc47a60081e8"/>
+            </owl:Restriction>
+        </owl:annotatedSource>
+    </owl:Axiom>
+    <owl:Restriction>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_160ad621_b27c_49b6_9e9a_86dde9bcd9e6"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0d08b2b1_80a8_435c_a61e_97aa164c26c0"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_0c5835d3_f792_44f3_9d14_fc47a60081e8"/>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.5.1912) http://owlapi.sourceforge.net -->
+
