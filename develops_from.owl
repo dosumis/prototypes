@@ -186,6 +186,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001521 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00001521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001522 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00001522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001558 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00001558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbt_00001564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001564">
@@ -201,15 +225,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001569 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00001569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001570 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00001570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbt_00001571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001571">
-        <rdfs:label xml:lang="en">U1sib neuron</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_1a0ff938_fdce_4f68_ab2c_251cb4048d9c"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBbt_00006035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBbt_00006037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -219,7 +258,6 @@
     <!-- http://purl.obolibrary.org/obo/FBbt_00006035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00006035">
-        <rdfs:label xml:lang="en">GMC 7-1a</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -234,9 +272,56 @@
     <!-- http://purl.obolibrary.org/obo/FBbt_00006036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00006036">
-        <rdfs:label xml:lang="en">GMC 7-1b</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006037 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006038 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006039 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006040 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006042 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006044 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbt_00006044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001564"/>
+    </rdf:Description>
     
 
 
@@ -251,15 +336,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/scratch_a44ea8de_a250_4ed0_b6da_21c3bb49b309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/scratch_253e3f87_a79d_4d1c_b442_8d0287663fb8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_253e3f87_a79d_4d1c_b442_8d0287663fb8">
-        <rdfs:label xml:lang="en">GMC 7-1d</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
     </owl:Class>
     
 
@@ -282,29 +358,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_a67a9c4d_9c3d_459e_a15f_1aeb077e8004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_a67a9c4d_9c3d_459e_a15f_1aeb077e8004">
-        <rdfs:label xml:lang="en">GMC 7-1c</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_aff11067_5934_4284_a4dc_5f524b030153">
         <rdfs:label xml:lang="en">neuron</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_fc0d1241_ce0e_4508_9026_feface056c67"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/scratch_c358a19b_695e_48fa_bb53_f184800b1041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/scratch_c358a19b_695e_48fa_bb53_f184800b1041">
-        <rdfs:label xml:lang="en">GMC 7-1e</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/scratch_183c86a7_ece3_4cbf_9672_653500539a37"/>
     </owl:Class>
     
 
