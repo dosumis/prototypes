@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/FBdv.owl" uri="imports/FBdv_life_stages_with_reciprocal_timing_rel.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.virtualflybrain.org/owl/timing_relations.owl" uri="imports/timing_relations_occurrent_only.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fbbt.owl" uri="imports/FBbt_NB7_1.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1353758422515" name="http://purl.obolibrary.org/obo/fbbt.owl" uri="imports/FBbt_NB7_1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1353758422515" name="http://www.semanticweb.org/ontologies/2012/10/Ontology1353523681702/develops_from.owl" uri="develops_from.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="duplicate:http://purl.obolibrary.org/obo/FBdv.owl" uri="imports/FBdv_life_stages.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="duplicate:http://purl.obolibrary.org/obo/FBdv.owl" uri="imports/FBdv_life_stages_with_reciprocal_timing_rel.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="duplicate:http://purl.obolibrary.org/obo/FBdv.owl" uri="imports/FBdv_plus_reciprocal_timing_relations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://purl.obolibrary.org/obo/fbbt.owl" uri="imports/FBbt_NB7_1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl" uri="imports/timing_relations_occurrent_only.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://www.semanticweb.org/ontologies/2012/10/Ontology1353523681702/develops_from.owl" uri="develops_from.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://www.semanticweb.org/ontologies/2012/10/Ontology1353576600965/expression_with_negation.owl" uri="expression_with_negation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://www.semanticweb.org/ontologies/2012/10/Ontology1354008959384.owl" uri="draft_lethal_phase_terms_qualitative.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354117681152" name="http://www.semanticweb.org/ontologies/2012/9/Ontology1350918386851.owl" uri="draft_lethal_phase_terms.owl"/>
     </group>
 </catalog>
