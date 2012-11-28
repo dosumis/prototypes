@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY Ontology1275387730635 "http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/10/Ontology1354008959384/qualititative_lethal_phase_terms.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/10/Ontology1354008959384/qualititative_lethal_phase_terms.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1275387730635="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/10/Ontology1354008959384/qualititative_lethal_phase_terms.owl">
+        <owl:imports rdf:resource="&obo;FBdv.owl"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635/timing_relations_for_occurrents.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000050">
+        <rdfs:subPropertyOf rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_02cff998_a5dd_4d9b_a99e_83d64c12a93f -->
+
+    <owl:Class rdf:about="&obo;scratch_02cff998_a5dd_4d9b_a99e_83d64c12a93f">
+        <rdfs:label xml:lang="en">lethal - all die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the P-stage.</obo:IAO_0000115>
+        <rdfs:comment>Use of this term is appropriate in cases where escapers surviving to later stage are  rare.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the P-stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="&obo;scratch_02cff998_a5dd_4d9b_a99e_83d64c12a93f"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_15bcd295_05d8_453b_9d4c_9236254f994c -->
+
+    <owl:Class rdf:about="&obo;scratch_15bcd295_05d8_453b_9d4c_9236254f994c">
+        <rdfs:label xml:lang="en">some die during first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_45f63608_3e75_4b6c_9539_19329920b6d7 -->
+
+    <owl:Class rdf:about="&obo;scratch_45f63608_3e75_4b6c_9539_19329920b6d7">
+        <rdfs:label xml:lang="en">lethal - survives to third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_4699b517_45ed_47a4_a5ca_dd599fdf6b7f -->
+
+    <owl:Class rdf:about="&obo;scratch_4699b517_45ed_47a4_a5ca_dd599fdf6b7f">
+        <rdfs:label xml:lang="en">lethal - all die during embryonic stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5927edb5_1ed3_4cb3_ac9d_d3ccc2d473ca -->
+
+    <owl:Class rdf:about="&obo;scratch_5927edb5_1ed3_4cb3_ac9d_d3ccc2d473ca">
+        <rdfs:label xml:lang="en">lethal - all die during larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5986b839_3933_41c2_a403_d60956362079 -->
+
+    <owl:Class rdf:about="&obo;scratch_5986b839_3933_41c2_a403_d60956362079">
+        <rdfs:label xml:lang="en">majority die during larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5c0b9625_32c3_417b_a984_367a444812dd -->
+
+    <owl:Class rdf:about="&obo;scratch_5c0b9625_32c3_417b_a984_367a444812dd">
+        <rdfs:label xml:lang="en">majority die during third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5dbf55b4_e48f_425a_8723_2f8f378a1404 -->
+
+    <owl:Class rdf:about="&obo;scratch_5dbf55b4_e48f_425a_8723_2f8f378a1404">
+        <rdfs:label xml:lang="en">lethal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Note on usage: lethal is appropriate in cases where escaper adults are very rare.</rdfs:comment>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype at some stage prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012)</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype at some stage prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012)</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="&obo;scratch_5dbf55b4_e48f_425a_8723_2f8f378a1404"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5e6b453c_e6a1_44f3_89b2_5a0b62ee5f08 -->
+
+    <owl:Class rdf:about="&obo;scratch_5e6b453c_e6a1_44f3_89b2_5a0b62ee5f08">
+        <rdfs:label xml:lang="en">lethal - survives to larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_5f383a67_0828_4063_b2b1_9147917ce7aa -->
+
+    <owl:Class rdf:about="&obo;scratch_5f383a67_0828_4063_b2b1_9147917ce7aa">
+        <rdfs:label xml:lang="en">partially lethal - majority live</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;scratch_71c6635e_e65c_48a1_bce7_0b7b3685972b"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_6fa439ff_696d_40c3_a95a_f944191bae1e -->
+
+    <owl:Class rdf:about="&obo;scratch_6fa439ff_696d_40c3_a95a_f944191bae1e">
+        <rdfs:label xml:lang="en">majority die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of some the majority of animals during the P-stage.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_71c6635e_e65c_48a1_bce7_0b7b3685972b -->
+
+    <owl:Class rdf:about="&obo;scratch_71c6635e_e65c_48a1_bce7_0b7b3685972b">
+        <rdfs:label xml:lang="en">minority die</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_7c7d9b01_7f6d_4e46_a79f_f8e35cdf57ca -->
+
+    <owl:Class rdf:about="&obo;scratch_7c7d9b01_7f6d_4e46_a79f_f8e35cdf57ca">
+        <rdfs:label xml:lang="en">some die during second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_7e272245_d432_4dcc_8106_40332c856c0a -->
+
+    <owl:Class rdf:about="&obo;scratch_7e272245_d432_4dcc_8106_40332c856c0a">
+        <rdfs:label xml:lang="en">some die during larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_7f6cf878_62a6_4db6_a542_fdb721e9ad67 -->
+
+    <owl:Class rdf:about="&obo;scratch_7f6cf878_62a6_4db6_a542_fdb721e9ad67">
+        <rdfs:label xml:lang="en">partially lethal - majority die</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of the majority of animals before adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_83519b71_8931_4543_ac66_6d880906543e -->
+
+    <owl:Class rdf:about="&obo;scratch_83519b71_8931_4543_ac66_6d880906543e">
+        <rdfs:label xml:lang="en">lethal - all die during second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_95d49512_170e_47c8_9294_7ed655d77e60 -->
+
+    <owl:Class rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60">
+        <rdfs:label xml:lang="en">some die</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_cb9c9d34_739b_414b_a654_1e0563a7905e"/>
+        <rdfs:comment>Considering its usage, all die should really be a subclass of some die, but keeping these two terms as siblings is an extremely useful hack to make reasoning work.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_979d6f7b_803c_4374_ba41_11a6a071e73b -->
+
+    <owl:Class rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b">
+        <rdfs:label xml:lang="en">most die</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_a92f4d80_5828_40a7_b19e_7b9331e120cc -->
+
+    <owl:Class rdf:about="&obo;scratch_a92f4d80_5828_40a7_b19e_7b9331e120cc">
+        <rdfs:label xml:lang="en">some die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of some significant proportion of animals during the P-stage.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_a94fad55_943c_4dac_b4bc_2c39beb094d5 -->
+
+    <owl:Class rdf:about="&obo;scratch_a94fad55_943c_4dac_b4bc_2c39beb094d5">
+        <rdfs:label xml:lang="en">majority die during second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_b9737328_f698_43eb_b61b_41c258423a8f -->
+
+    <owl:Class rdf:about="&obo;scratch_b9737328_f698_43eb_b61b_41c258423a8f">
+        <rdfs:label xml:lang="en">lethal - survives to second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_c4416815_8889_4c34_906a_8c7295050948 -->
+
+    <owl:Class rdf:about="&obo;scratch_c4416815_8889_4c34_906a_8c7295050948">
+        <rdfs:label xml:lang="en">lethal - all die during first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_c6e86a0f_50c1_4647_adc5_505ebaf5259a -->
+
+    <owl:Class rdf:about="&obo;scratch_c6e86a0f_50c1_4647_adc5_505ebaf5259a">
+        <rdfs:label xml:lang="en">partially lethal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of some significant proportion of animals before adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of some significant proportion of animals before adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="&obo;scratch_c6e86a0f_50c1_4647_adc5_505ebaf5259a"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_ca731007_2ab7_474b_a7ce_f8c7fa6a7d59 -->
+
+    <owl:Class rdf:about="&obo;scratch_ca731007_2ab7_474b_a7ce_f8c7fa6a7d59">
+        <rdfs:label xml:lang="en">lethal - all die during third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_cb9c9d34_739b_414b_a654_1e0563a7905e -->
+
+    <owl:Class rdf:about="&obo;scratch_cb9c9d34_739b_414b_a654_1e0563a7905e">
+        <rdfs:label xml:lang="en">mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_db30150c_e4a2_4134_b557_6587704007d1 -->
+
+    <owl:Class rdf:about="&obo;scratch_db30150c_e4a2_4134_b557_6587704007d1">
+        <rdfs:label xml:lang="en">lethal - survives to first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_de25ad27_71c4_4939_bcbf_368d8f49f467 -->
+
+    <owl:Class rdf:about="&obo;scratch_de25ad27_71c4_4939_bcbf_368d8f49f467">
+        <rdfs:label xml:lang="en">some die during third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_f026890d_f2ec_493b_bd58_3367823114a9 -->
+
+    <owl:Class rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9">
+        <rdfs:label xml:lang="en">all die</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_cb9c9d34_739b_414b_a654_1e0563a7905e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_f629754b_fd94_4bff_9abf_c0e8f24b975b -->
+
+    <owl:Class rdf:about="&obo;scratch_f629754b_fd94_4bff_9abf_c0e8f24b975b">
+        <rdfs:label xml:lang="en">majority die during first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_979d6f7b_803c_4374_ba41_11a6a071e73b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_fae17be7_08fc_4c36_8324_15be5c110834 -->
+
+    <owl:Class rdf:about="&obo;scratch_fae17be7_08fc_4c36_8324_15be5c110834">
+        <rdfs:label xml:lang="en">lethal - survives to P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Ontology1275387730635:NRTF0000022>A phenotype that is the death of all animals sharing a genotype by the end of the P-stage and where the last surviving animals die during the P-stage.</Ontology1275387730635:NRTF0000022>
+    </owl:Class>
+    <owl:Axiom>
+        <rdfs:comment></rdfs:comment>
+        <owl:annotatedSource rdf:resource="&obo;scratch_fae17be7_08fc_4c36_8324_15be5c110834"/>
+        <owl:annotatedProperty rdf:resource="&owl;equivalentClass"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_95d49512_170e_47c8_9294_7ed655d77e60"/>
+                    <rdf:Description rdf:about="&obo;scratch_f026890d_f2ec_493b_bd58_3367823114a9"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1275387730635;NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.5.1912) http://owlapi.sourceforge.net -->
+
