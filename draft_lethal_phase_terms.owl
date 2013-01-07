@@ -7,6 +7,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
     <!ENTITY timing_relations "http://www.virtualflybrain.org/owl/timing_relations.owl:" >
 ]>
 
@@ -18,7 +19,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/9/Ontology1350918386851.owl">
         <owl:imports rdf:resource="&obo;FBdv.owl"/>
         <owl:imports rdf:resource="http://www.virtualflybrain.org/owl/timing_relations.owl"/>
@@ -34,6 +36,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000589"/>
     
 
 
@@ -59,15 +62,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_0008212 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
-    <owl:ObjectProperty rdf:about="&obo;scratch_0008212">
-        <obo:IAO_0000589 xml:lang="en">during</obo:IAO_0000589>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;scratch_0008212"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-    </owl:ObjectProperty>
+    <rdf:Description rdf:about="&obo;BFO_0000050">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
     
 
 
@@ -85,8 +90,21 @@
     <!-- http://purl.obolibrary.org/obo/scratch_0008216 -->
 
     <owl:DatatypeProperty rdf:about="&obo;scratch_0008216">
-        <obo:IAO_0000589 xml:lang="en">penetrance</obo:IAO_0000589>
-        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:label xml:lang="en">has_penetrance</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;FBcv_0000347"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="&xsd;short"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="&xsd;integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="&xsd;integer">100</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
     </owl:DatatypeProperty>
     
 
@@ -102,120 +120,1276 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_0008210 -->
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000025 -->
 
-    <owl:Class rdf:about="&obo;scratch_0008210">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;scratch_0008211"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;scratch_0008212"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">significant lethality during larval stage</obo:IAO_0000589>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/scratch_0008211 -->
-
-    <owl:Class rdf:about="&obo;scratch_0008211">
+    <owl:Class rdf:about="&obo;FBcv_0000025">
+        <rdfs:label xml:lang="en">lethal - all die during pharate adult stage</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;scratch_0008217"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&timing_relations;NRTF0000002"/>
-                                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
-                                <owl:someValuesFrom>
-                                    <rdfs:Datatype>
-                                        <owl:onDatatype rdf:resource="&xsd;integer"/>
-                                        <owl:withRestrictions rdf:parseType="Collection">
-                                            <rdf:Description>
-                                                <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
-                                            </rdf:Description>
-                                        </owl:withRestrictions>
-                                    </rdfs:Datatype>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">significant pre-adult lethality</obo:IAO_0000589>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_0008213 -->
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000026 -->
 
-    <owl:Class rdf:about="&obo;scratch_0008213">
+    <owl:Class rdf:about="&obo;FBcv_0000026">
+        <rdfs:label xml:lang="en">lethal - all die before end of prepupal stage</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;scratch_0008211"/>
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;scratch_0008212"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000027 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0000027">
+        <rdfs:label xml:lang="en">lethal - all die before end of pupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000347 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0000347">
+        <rdfs:label xml:lang="en">phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000351 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0000351">
+        <rdfs:label xml:lang="en">lethal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002000 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002000">
+        <rdfs:label xml:lang="en">lethal - all die before end of P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <oboInOwl:hasExactSynonym>lethal - all die before end of pharate adult stage</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002001 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002001">
+        <rdfs:label xml:lang="en">lethal - all die before end of first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002002 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002002">
+        <rdfs:label xml:lang="en">lethal - all die before end of larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <oboInOwl:hasExactSynonym>lethal - all die before end of third instar larval stage</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002003 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002003">
+        <rdfs:label xml:lang="en">lethal - all die before end of second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002005 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002005">
+        <rdfs:label xml:lang="en">lethal - all die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002006 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002006">
+        <rdfs:label xml:lang="en">lethal - all die during first instar stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
                         <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">significant lethality during first instar larval stage</obo:IAO_0000589>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_0008214 -->
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002007 -->
 
-    <owl:Class rdf:about="&obo;scratch_0008214">
+    <owl:Class rdf:about="&obo;FBcv_0002007">
+        <rdfs:label xml:lang="en">lethal - all die during larval stage</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;scratch_0008217"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;scratch_0008212"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&timing_relations;NRTF0000002"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
-                                    </owl:Restriction>
-                                </owl:unionOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
-                                <owl:hasValue rdf:datatype="&xsd;integer">100</owl:hasValue>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">all die during or before larval stage</obo:IAO_0000589>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/scratch_0008215 -->
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002008 -->
 
-    <owl:Class rdf:about="&obo;scratch_0008215">
-        <rdfs:subClassOf rdf:resource="&obo;scratch_0008211"/>
-        <obo:IAO_0000589 xml:lang="en">lethal</obo:IAO_0000589>
+    <owl:Class rdf:about="&obo;FBcv_0002008">
+        <rdfs:label xml:lang="en">lethal - all die during second instar stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002009 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002009">
+        <rdfs:label xml:lang="en">lethal - all die during third instar stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002010 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002010">
+        <rdfs:label xml:lang="en">majority die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002011 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002011">
+        <rdfs:label xml:lang="en">majority die during first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002012 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002012">
+        <rdfs:label xml:lang="en">majority die during larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002013 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002013">
+        <rdfs:label xml:lang="en">majority die during second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002014 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002014">
+        <rdfs:label xml:lang="en">majority die during third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002015 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002015">
+        <rdfs:label xml:lang="en">partially lethal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="&xsd;integer">98</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002016 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002016">
+        <rdfs:label xml:lang="en">partially lethal - majority die</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">50</xsd:minInclusive>
+                                    </rdf:Description>
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="&xsd;integer">98</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002017 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002017">
+        <rdfs:label xml:lang="en">partially lethal - majority live</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="&xsd;integer">50</xsd:maxExclusive>
+                                    </rdf:Description>
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002019 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002019">
+        <rdfs:label xml:lang="en">significant pre-adult mortality</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002020 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002020">
+        <rdfs:label xml:lang="en">some die during P-stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002021 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002021">
+        <rdfs:label xml:lang="en">some die during first instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002022 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002022">
+        <rdfs:label xml:lang="en">some die during second instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002023 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002023">
+        <rdfs:label xml:lang="en">some die during larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002024 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002024">
+        <rdfs:label xml:lang="en">some die during third instar larval stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002030 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002030">
+        <rdfs:label xml:lang="en">lethal - all die during pupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002031 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002031">
+        <rdfs:label xml:lang="en">lethal - all die during prepupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002032 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002032">
+        <rdfs:label xml:lang="en">lethal - all die before end of embryonic stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002033 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002033">
+        <rdfs:label xml:lang="en">lethal - all die during embryonic stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">98</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002034 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002034">
+        <rdfs:label xml:lang="en">majority die during pupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002035 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002035">
+        <rdfs:label xml:lang="en">majority die during prepupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002036 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002036">
+        <rdfs:label xml:lang="en">majority die during pharate adult stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002037 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002037">
+        <rdfs:label xml:lang="en">majority die during embryonic stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">50</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002038 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002038">
+        <rdfs:label xml:lang="en">some die during pharate adult stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002039 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002039">
+        <rdfs:label xml:lang="en">some die during pupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002040 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002040">
+        <rdfs:label xml:lang="en">some die during prepupal stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002041 -->
+
+    <owl:Class rdf:about="&obo;FBcv_0002041">
+        <rdfs:label xml:lang="en">some die during embryonic stage</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;short"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">5</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
@@ -223,46 +1397,12 @@
     <!-- http://purl.obolibrary.org/obo/scratch_0008217 -->
 
     <owl:Class rdf:about="&obo;scratch_0008217">
-        <obo:IAO_0000589 xml:lang="en">death</obo:IAO_0000589>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/scratch_0008219 -->
-
-    <owl:Class rdf:about="&obo;scratch_0008219">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;scratch_0008217"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;scratch_0008212"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&timing_relations;NRTF0000002"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
-                                    </owl:Restriction>
-                                </owl:unionOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;scratch_0008216"/>
-                                <owl:hasValue rdf:datatype="&xsd;integer">100</owl:hasValue>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">&#39;all die during or before first instar larval stage&#39;</obo:IAO_0000589>
+        <rdfs:label xml:lang="en">mortality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;FBcv_0000347"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.5.1912) http://owlapi.sourceforge.net -->
 
