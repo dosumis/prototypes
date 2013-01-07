@@ -148,7 +148,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the pharate adult stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the pharate adult stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0000025"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -181,7 +188,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the prepupal stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the prepupal stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0000026"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -214,7 +228,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the pupal stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the pupal stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0000027"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -254,7 +275,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype at some stage prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012)</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype at some stage prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0000351"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -287,8 +316,15 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of P-stage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>lethal - all die before end of pharate adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of P-stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002000"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -321,7 +357,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the first instar larval stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the first instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -354,8 +397,16 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the larval stage.</obo:IAO_0000115>
+        <rdfs:comment>As the larval stage and third instar larval stage have the same end,  there is no need for a seprate term for &apos;lethal - all die before end of third instar larval stage&apos;.</rdfs:comment>
         <oboInOwl:hasExactSynonym>lethal - all die before end of third instar larval stage</oboInOwl:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the larval stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -388,7 +439,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the second instar larval stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the second instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -420,7 +478,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the P-stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the P-stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002005"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -452,7 +517,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the first instar larval stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the first instar larval stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002006"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -484,7 +556,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the larval stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002007"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -516,7 +595,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the second instar larval stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the second instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002008"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -1037,7 +1123,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the pupal stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the pupal stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002030"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -1069,7 +1162,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the prepupal stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the prepupal stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002031"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -1102,7 +1202,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype before the end of the embryonic stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype before the end of the embryonic stage.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002032"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -1134,7 +1241,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A phenotype that is the death of all animals sharing a genotype during the embryonic stage.</obo:IAO_0000115>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget>A phenotype that is the death of all animals sharing a genotype during the embryonic stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;FBcv_0002033"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -1262,6 +1376,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment>This term is agnostic about whether any survive to adulthood.</rdfs:comment>
+        <obo:IAO_0000115>A phenotype that is the death of the majority of animals sharing a genotype during the embryonic stage.</obo:IAO_0000115>
     </owl:Class>
     
 
