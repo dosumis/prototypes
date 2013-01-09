@@ -7,6 +7,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
     <!ENTITY www "http://www.semanticweb.org/ontologies/2010/5/www.dave_hacky_test/" >
     <!ENTITY Ontology1275387730635 "http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:" >
 ]>
@@ -20,10 +21,9 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:www="http://www.semanticweb.org/ontologies/2010/5/www.dave_hacky_test/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635/timing_relations_for_occurrents.owl">
-        <owl:imports rdf:resource="&obo;ro.owl"/>
-    </owl:Ontology>
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635/timing_relations_for_occurrents.owl"/>
     
 
 
@@ -35,9 +35,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
     <owl:AnnotationProperty rdf:about="&Ontology1275387730635;NRTF0000024">
         <rdfs:label xml:lang="en">synonym</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
     
 
 
@@ -69,7 +72,7 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">precedes</rdfs:label>
         <rdfs:comment xml:lang="en">X precedes Y iff: end(X) before_or_simultaneous_with start(Y)</rdfs:comment>
-        <Ontology1275387730635:NRTF0000024 xml:lang="en">ends_before</Ontology1275387730635:NRTF0000024>
+        <obo:IAO_0000118 xml:lang="en">ends_before</obo:IAO_0000118>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <owl:inverseOf rdf:resource="&obo;BFO_0000062"/>
@@ -92,8 +95,8 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">preceded_by</rdfs:label>
         <rdfs:comment xml:lang="en">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</rdfs:comment>
-        <Ontology1275387730635:NRTF0000024 xml:lang="en">proceeds</Ontology1275387730635:NRTF0000024>
-        <Ontology1275387730635:NRTF0000024 xml:lang="en">starts_after</Ontology1275387730635:NRTF0000024>
+        <obo:IAO_0000118 xml:lang="en">proceeds</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">starts_after</obo:IAO_0000118>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002086"/>
@@ -114,7 +117,8 @@
     <owl:ObjectProperty rdf:about="&obo;RO_0002081">
         <rdfs:label xml:lang="en">before_or_simultaneous_with</rdfs:label>
         <rdfs:comment>Primitive instance level timing relation between events</rdfs:comment>
-        <Ontology1275387730635:NRTF0000024 xml:lang="en">&lt;=</Ontology1275387730635:NRTF0000024>
+        <oboInOwl:hasExactSynonym xml:lang="en">&lt;=</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000116>Need BFO term for event for domain and range.  Process boundary doesn&apos;t seem right - if stages != processes.</obo:IAO_0000116>
         <rdfs:range rdf:resource="&Ontology1275387730635;NRTF0000015"/>
         <rdfs:domain rdf:resource="&Ontology1275387730635;NRTF0000015"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
@@ -207,7 +211,7 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002088">
         <rdfs:label xml:lang="en">during_which_starts</rdfs:label>
-        <Ontology1275387730635:NRTF0000024>Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.</Ontology1275387730635:NRTF0000024>
+        <rdfs:comment>Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.</rdfs:comment>
         <owl:inverseOf rdf:resource="&obo;RO_0002091"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
