@@ -547,7 +547,6 @@ creation_date: 2013-01-10T13:03:54Z
 id: http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000015
 name: event
 comment: time dimension = 0.  An event is an instant.
-is_a: owl:Thing
 
 [Term]
 id: scratch:0008217
