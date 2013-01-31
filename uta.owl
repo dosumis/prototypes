@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/scratch_0008216 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/scratch_0008216">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000347"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                <withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</xsd:maxInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                </withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000025 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000025">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000026 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000026">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000027 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000027">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000347 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000347"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0000351 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000351">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002000 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002000">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002001">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002002">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002003">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002005">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002006">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002007">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002008">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002009">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002010 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002010">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002011 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002011">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002012 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002012">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002013 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002013">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002014 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002014">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002015 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002015">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:maxExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002016 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002016">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:maxExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002017 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002017">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:maxExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002019 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002019">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002020 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002020">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002021 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002021">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002022 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002022">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002023 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002023">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002024 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002024">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002030 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002030">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002031">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002032 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002032">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002033 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002033">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002034 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002034">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002035 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002035">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002036 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002036">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002037 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002037">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:minExclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002038 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002038">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002039 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002039">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002040 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002040">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002041 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002041">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBcv_0002042 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0002042">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/scratch_0008216"/>
+                <someValuesFrom>
+                    <rdfs:Datatype>
+                        <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                        <withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</xsd:minInclusive>
+                            </rdf:Description>
+                        </withRestrictions>
+                    </rdfs:Datatype>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00007008</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ontology1275387730635.owl:NRTF0000004">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends_at_start_of</oboInOwl:id>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.5.3) http://owlapi.sourceforge.net -->
+

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:11:2012 09:20
+date: 09:01:2013 08:40
 saved-by: djs93
 auto-generated-by: OBO-Edit 2.2
 default-namespace: FlyBase development CV
@@ -102,9 +102,10 @@ id: FBdv:00005370
 name: adult stage A1
 alt_id: FBdv:00005373
 def: "Newly eclosed adult stage. Animal free of pupal case. Runs rapidly to find site for wing expansion. Wings are folded back and black against a very pale abdomen." [FlyBase:FBrf0049147]
-comment: Temporal ordering number - 785.  The time at which eclosed flies settle down for wing expansion can vary greatly.  If the fail to find a suitable site then expansion can be delayed by several hours.
+comment: Temporal ordering number - 785.  The time at which eclosed flies settle down for wing expansion can vary greatly.  If they fail to find a suitable site then expansion can be delayed by several hours.
 synonym: "adult stage I" RELATED []
 is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00007025 ! immature adult stage
 relationship: starts_at_end_of FBdv:00006011 ! pharate adult stage
 relationship: starts_at_end_of FBdv:00007001 ! P-stage
 
@@ -112,10 +113,11 @@ relationship: starts_at_end_of FBdv:00007001 ! P-stage
 id: FBdv:00005371
 name: adult stage A2
 alt_id: FBdv:00005374
-def: "Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25'C" [FlyBase:FBrf0049147]
+def: "Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25'C." [FlyBase:FBrf0049147]
 comment: Temporal ordering number - 790.
 synonym: "adult stage II" RELATED []
 is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00007025 ! immature adult stage
 relationship: starts_at_end_of FBdv:00005370 ! adult stage A1
 
 [Term]
@@ -135,6 +137,7 @@ def: "Adult stage immediately after wing expansion, during which tanning of the 
 comment: Temporal ordering number - 800.
 synonym: "adult stage III" RELATED []
 is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00007025 ! immature adult stage
 relationship: starts_at_end_of FBdv:00005371 ! adult stage A2
 
 [Term]
@@ -166,6 +169,21 @@ is_a: FBdv:00005259 ! developmental stage
 created_by: djs93
 creation_date: 2009-10-01T05:59:22Z
 
+[Term]
+id: FBdv:00007025
+name: immature adult stage
+def: "The developmental stage that lasts from eclosion of the adult from the pupal case until tanning is complete (the end of adult stage A3)." [FBC:DOS]
+comment: Temporal ordering number - 782.
+is_a: FBdv:00007012 ! life stage
+relationship: starts_at_end_of FBdv:00006011 ! pharate adult stage
+relationship: starts_at_end_of FBdv:00007001 ! P-stage
+created_by: djs93
+creation_date: 2013-01-08T20:06:59Z
+
+[Typedef]
+id: ends_at_start_of
+inverse_of: starts_at_end_of ! starts_at_end_of
+
 [Typedef]
 id: part_of
 name: part_of
@@ -187,9 +205,4 @@ id: starts_at_end_of
 name: starts_at_end_of
 xref: BFO:0000060
 is_a: preceded_by ! preceded_by
-
-[Typedef]
-id: ends_at_start_of
-name: ends_at_start_of
-
 

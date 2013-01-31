@@ -1,0 +1,303 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: : <http://www.semanticweb.org/ontologies/2012/9/Ontology1350918386851.owl#>
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: timing_relations: <http://www.virtualflybrain.org/owl/timing_relations.owl:>
+
+
+
+Ontology: <http://www.semanticweb.org/ontologies/2012/9/Ontology1350918386851.owl>
+
+Import: <http://www.virtualflybrain.org/owl/timing_relations.owl>
+Import: <http://purl.obolibrary.org/obo/FBdv.owl>
+
+AnnotationProperty: obo:IAO_0000589
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:float
+
+    
+Datatype: xsd:integer
+
+    
+ObjectProperty: <http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002>
+
+    
+ObjectProperty: <http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027>
+
+    
+ObjectProperty: obo:BFO_0000050
+
+    SubPropertyOf: 
+        <http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027>
+    
+    
+DataProperty: obo:scratch_0008216
+
+    Annotations: 
+        rdfs:label "has_penetrance"@en
+    
+    Domain: 
+        obo:scratch_2ef4b090_e951_4d1b_8f50_f2c950fb485d
+    
+    Range: 
+        xsd:float[>= 0 , <= 100]
+    
+    
+Class: obo:scratch_0008213
+
+    Annotations: 
+        rdfs:label "significant lethality during first instar larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005337)
+         and (obo:scratch_0008216 some xsd:float[>= 5])
+    
+    
+Class: obo:scratch_0008215
+
+    Annotations: 
+        rdfs:label "lethal"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00006012)
+         and (obo:scratch_0008216 some xsd:float[> 98])
+    
+    
+Class: obo:scratch_0008217
+
+    Annotations: 
+        rdfs:label "mortality"@en
+    
+    
+Class: obo:scratch_7dbf6a45_0a56_4514_a859_f262c06c91e4
+
+    Annotations: 
+        rdfs:label "partially lethal -majority live"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00006012)
+         and (obo:scratch_0008216 some xsd:float[>= 5 , < 50])
+    
+    
+Class: obo:scratch_0008210
+
+    Annotations: 
+        rdfs:label "significant lethality during larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005336)
+         and (obo:scratch_0008216 some xsd:float[>= 5])
+    
+    
+Class: obo:scratch_10fea849_a799_4e09_b90e_c7d90b12024f
+
+    Annotations: 
+        rdfs:label "majority die during P-stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00007001)
+         and (obo:scratch_0008216 some xsd:float[> 50])
+    
+    
+Class: obo:scratch_0008211
+
+    Annotations: 
+        rdfs:label "significant pre-adult lethality"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00006012)
+         and (obo:scratch_0008216 some xsd:float[>= 5])
+    
+    
+Class: obo:scratch_92798fc1_ed54_49c6_8748_461b36890de5
+
+    Annotations: 
+        rdfs:label "lethal - survives to P-stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00005370)
+         and (obo:scratch_0008216 some xsd:float[> 98])
+    
+    
+Class: obo:scratch_43c901d0_fcb2_49fc_a543_6aa80540f56b
+
+    Annotations: 
+        rdfs:label "majority die during larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005336)
+         and (obo:scratch_0008216 some xsd:float[> 50])
+    
+    
+Class: obo:scratch_8078c6cd_5d44_4bb3_9649_679def70a146
+
+    Annotations: 
+        rdfs:label "all die during larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005336)
+         and (obo:scratch_0008216 some xsd:float[>= 98])
+    
+    
+Class: obo:FBdv_00006012
+
+    
+Class: obo:scratch_cfd54d42_6473_4ef7_a40c_b4f93e42298e
+
+    Annotations: 
+        rdfs:label "all die during first instar stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005337)
+         and (obo:scratch_0008216 some xsd:float[>= 98])
+    
+    
+Class: obo:scratch_bc72f244_097e_4b9f_9125_2e1fbee50043
+
+    Annotations: 
+        rdfs:label "majority die during third instar larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005339)
+         and (obo:scratch_0008216 some xsd:float[> 50])
+    
+    
+Class: obo:scratch_32f3a94f_b21a_428e_badd_d8835142325d
+
+    Annotations: 
+        rdfs:label "partially lethal -majority die"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00006012)
+         and (obo:scratch_0008216 some xsd:float[<= 50 , < 98])
+    
+    
+Class: obo:scratch_2331b3cc_1141_4a55_9532_95d5227ef499
+
+    Annotations: 
+        rdfs:label "all die during third instar stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005339)
+         and (obo:scratch_0008216 some xsd:float[>= 98])
+    
+    
+Class: obo:FBdv_00005336
+
+    
+Class: obo:scratch_50754d0c_0f73_4ede_9569_9faddc3b3cd6
+
+    Annotations: 
+        rdfs:label "all die during second instar stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005338)
+         and (obo:scratch_0008216 some xsd:float[>= 98])
+    
+    
+Class: obo:FBdv_00005339
+
+    
+Class: obo:scratch_3b87d91e_79ff_4c3b_87a3_323e1ae0032e
+
+    Annotations: 
+        rdfs:label "lethal - survives to larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00007001)
+         and (obo:scratch_0008216 some xsd:float[> 98])
+    
+    
+Class: obo:FBdv_00005338
+
+    
+Class: obo:FBdv_00005337
+
+    
+Class: obo:FBdv_00007001
+
+    
+Class: obo:scratch_2ef4b090_e951_4d1b_8f50_f2c950fb485d
+
+    Annotations: 
+        rdfs:label "phenotype"@en
+    
+    
+Class: obo:scratch_f3ec2a46_05c2_4fc6_a9c1_dafbc2142e7b
+
+    Annotations: 
+        rdfs:label "majority die during second instar larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005338)
+         and (obo:scratch_0008216 some xsd:float[> 50])
+    
+    
+Class: obo:scratch_c2b7a9ca_3857_41a5_aa62_9d423a2ae591
+
+    Annotations: 
+        rdfs:label "living"@en
+    
+    
+Class: obo:FBdv_00005370
+
+    
+Class: obo:scratch_875e9d3b_4573_4669_b2f5_20058b1513e1
+
+    Annotations: 
+        rdfs:label "majority die during first instar larval stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00005337)
+         and (obo:scratch_0008216 some xsd:float[> 50])
+    
+    
+Class: obo:scratch_203a6938_97ea_4863_887a_9b41cadd87f7
+
+    Annotations: 
+        rdfs:label "all die during P-stage"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000027> some obo:FBdv_00007001)
+         and (obo:scratch_0008216 some xsd:float[>= 98])
+    
+    
+Class: obo:scratch_051aae1a_7342_4d36_a17c_daeec0480c86
+
+    Annotations: 
+        rdfs:label "partially lethal"@en
+    
+    EquivalentTo: 
+        obo:scratch_0008217
+         and (<http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000002> some obo:FBdv_00006012)
+         and (obo:scratch_0008216 some xsd:float[< 98])
+    
+    

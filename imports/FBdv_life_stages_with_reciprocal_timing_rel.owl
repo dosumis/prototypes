@@ -5,7 +5,6 @@
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY FBdv "http://purl.obolibrary.org/obo/FBdv#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
@@ -19,11 +18,10 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:FBdv="&obo;FBdv#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="&obo;FBdv.owl">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="&xsd;string">27:11:2012 09:20</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="&xsd;string">10:01:2013 13:21</oboInOwl:date>
         <oboInOwl:remark rdf:datatype="&xsd;string">Drosophila temporal ontology.</oboInOwl:remark>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:default-namespace>
         <oboInOwl:auto-generated-by rdf:datatype="&xsd;string">OBO-Edit 2.2</oboInOwl:auto-generated-by>
@@ -40,10 +38,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand">
         <rdfs:label rdf:datatype="&xsd;string">shorthand</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBOFormatVersion">
         <rdfs:label rdf:datatype="&xsd;string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
@@ -54,14 +52,14 @@
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
         <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
     <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;saved-by"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
         <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
         <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
@@ -111,19 +109,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OBO_REL:part_of</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="&xsd;string">part_of</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">part_of</oboInOwl:shorthand>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000060 -->
-
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000060">
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000060</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="&xsd;string">starts_at_end_of</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">starts_at_end_of</oboInOwl:shorthand>
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000062"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">part_of</oboInOwl:hasExactSynonym>
     </owl:ObjectProperty>
     
 
@@ -132,7 +118,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000062">
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
-        <rdfs:label rdf:datatype="&xsd;string">preceded_by</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-10-09T10:00:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000062</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
@@ -144,12 +129,26 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/Ontology1275387730635.owl:NRTF0000004 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
 
-    <owl:ObjectProperty rdf:about="&obo;Ontology1275387730635.owl:NRTF0000004">
-        <rdfs:label rdf:datatype="&xsd;string">ends_at_start_of</rdfs:label>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002087">
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002087</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">starts_at_end_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">starts_at_end_of</oboInOwl:shorthand>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000062"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002090 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002090">
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002090</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="&xsd;string">ends_at_start_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">ends_at_start_of</oboInOwl:shorthand>
+        <owl:inverseOf rdf:resource="&obo;RO_0002087"/>
     </owl:ObjectProperty>
     
 
@@ -213,13 +212,13 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -244,20 +243,20 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005336</oboInOwl:id>
@@ -281,19 +280,19 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005289"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -320,20 +319,20 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005338</oboInOwl:id>
@@ -359,14 +358,8 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -377,8 +370,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005339</oboInOwl:id>
@@ -404,8 +403,8 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -416,14 +415,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005342</oboInOwl:id>
@@ -454,13 +453,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005342"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -493,14 +492,14 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005369</oboInOwl:id>
@@ -524,27 +523,33 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005370</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">FBdv:00005373</oboInOwl:hasAlternativeId>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Newly eclosed adult stage. Animal free of pupal case. Runs rapidly to find site for wing expansion. Wings are folded back and black against a very pale abdomen.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="&xsd;string">Temporal ordering number - 785.  The time at which eclosed flies settle down for wing expansion can vary greatly.  If the fail to find a suitable site then expansion can be delayed by several hours.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Temporal ordering number - 785.  The time at which eclosed flies settle down for wing expansion can vary greatly.  If they fail to find a suitable site then expansion can be delayed by several hours.</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">adult stage I</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -563,26 +568,32 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00005371</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">FBdv:00005374</oboInOwl:hasAlternativeId>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25&apos;C</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25&apos;C.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="&xsd;string">Temporal ordering number - 790.</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">adult stage II</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FlyBase:FBrf0049147</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="&xsd;string">Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25&apos;C</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Stage, shortly after eclosion, during which the wings expand. During wing expansion, the abdomen pulsates and the hind legs stroke the wings vigorously for several minutes at a time. The stage ends when the wings are folded down over the abdomen, which has become broader and shorter, and the wing cuticle has lost its folds.  The stage lasts around 15 minutes at 25&apos;C.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;FBdv_00005371"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
@@ -596,25 +607,31 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005369"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005349"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005369"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -641,8 +658,20 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Adult stage immediately after wing expansion, during which tanning of the cuticle is completed.  This stage lasts approximately 45 minutes at 25&apos;C.</obo:IAO_0000115>
@@ -668,26 +697,32 @@
         <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005369"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="&obo;FBdv_00005370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000060"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;Ontology1275387730635.owl:NRTF0000004"/>
-                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005369"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00005339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2008-06-05T04:51:40Z</oboInOwl:creation_date>
@@ -724,6 +759,77 @@
         <owl:annotatedTarget rdf:datatype="&xsd;string">A temporal subdivision of a Drosophila life, delimited by major transitions in the circumstances of the organism, such as: fertilisation; hatching; pupal ecdysis; eclosion.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="&obo;FBdv_00007012"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBdv_00007025 -->
+
+    <owl:Class rdf:about="&obo;FBdv_00007025">
+        <rdfs:label rdf:datatype="&xsd;string">immature adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2013-01-08T20:06:59Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00007025</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="&xsd;string">Temporal ordering number - 782.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The developmental stage that lasts from eclosion of the adult from the pupal case until tanning is complete (the end of adult stage A3).</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">djs93</oboInOwl:created_by>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The developmental stage that lasts from eclosion of the adult from the pupal case until tanning is complete (the end of adult stage A3).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBdv_00007025"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBdv_00007026 -->
+
+    <owl:Class rdf:about="&obo;FBdv_00007026">
+        <rdfs:label rdf:datatype="&xsd;string">mature adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;FBdv_00007012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00006012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="&obo;FBdv_00007025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2013-01-10T13:03:54Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">FBdv:00007026</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Life stage from the end of adult stage A3, when tanning is complete, to death.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">djs93</oboInOwl:created_by>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Life stage from the end of adult stage A3, when tanning is complete, to death.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;FBdv_00007026"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
 </rdf:RDF>

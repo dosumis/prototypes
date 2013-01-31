@@ -72,7 +72,7 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">precedes</rdfs:label>
         <rdfs:comment xml:lang="en">X precedes Y iff: end(X) before_or_simultaneous_with start(Y)</rdfs:comment>
-        <obo:IAO_0000118 xml:lang="en">ends_before</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">ends_before</oboInOwl:hasExactSynonym>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <owl:inverseOf rdf:resource="&obo;BFO_0000062"/>
@@ -95,17 +95,17 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">preceded_by</rdfs:label>
         <rdfs:comment xml:lang="en">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</rdfs:comment>
-        <obo:IAO_0000118 xml:lang="en">proceeds</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">starts_after</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">proceeds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">starts_after</oboInOwl:hasExactSynonym>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002086"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002092"/>
+            <rdf:Description rdf:about="&obo;RO_0002091"/>
             <rdf:Description rdf:about="&obo;BFO_0000062"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002091"/>
+            <rdf:Description rdf:about="&obo;RO_0002092"/>
             <rdf:Description rdf:about="&obo;BFO_0000062"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -118,7 +118,6 @@
         <rdfs:label xml:lang="en">before_or_simultaneous_with</rdfs:label>
         <rdfs:comment>Primitive instance level timing relation between events</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">&lt;=</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000116>Need BFO term for event for domain and range.  Process boundary doesn&apos;t seem right - if stages != processes.</obo:IAO_0000116>
         <rdfs:range rdf:resource="&Ontology1275387730635;NRTF0000015"/>
         <rdfs:domain rdf:resource="&Ontology1275387730635;NRTF0000015"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
@@ -197,8 +196,8 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002087">
         <rdfs:label xml:lang="en">immediately_preceded_by</rdfs:label>
-        <obo:IAO_0000118>starts_at_end_of</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
+        <oboInOwl:hasExactSynonym>starts_at_end_of</oboInOwl:hasExactSynonym>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000062"/>
@@ -238,7 +237,7 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002090">
         <rdfs:label xml:lang="en">immediately_precedes</rdfs:label>
-        <obo:IAO_0000118>ends_at_start_of</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>ends_at_start_of</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
