@@ -134,7 +134,7 @@
     <!-- http://purl.obolibrary.org/obo/FBcv_0000347 -->
 
     <owl:Class rdf:about="&obo;FBcv_0000347">
-        <rdfs:label xml:lang="en">phenotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenotypic class</rdfs:label>
     </owl:Class>
     
 

@@ -526,7 +526,7 @@
     <!-- http://purl.obolibrary.org/obo/FBcv_0000347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000347">
-        <rdfs:label xml:lang="en">phenotype</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypic class</rdfs:label>
     </owl:Class>
     
 
@@ -566,8 +566,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of some significant proportion of animals in that population, but less that half, prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of some significant proportion of animals in that population, but less that half, prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000350"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -605,9 +605,9 @@
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000351"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -650,9 +650,9 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref>FBC:NB</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A phenotype of a population that is the death a majority of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death a majority of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000352"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -735,8 +735,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the first instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -778,8 +778,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -819,8 +819,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the second instar larval stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the second instar larval stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -859,8 +859,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the P-stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the P-stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -899,8 +899,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the first instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -979,8 +979,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the second instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1059,8 +1059,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of the majority of animals in that population during the P-stage.</owl:annotatedTarget>
         <rdfs:comment>FBC:DOS</rdfs:comment>
+        <owl:annotatedTarget>A phenotype of a population that is the death of the majority of animals in that population during the P-stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002010"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1100,9 +1100,9 @@ first instar larval stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of the majority of animals in that population during the 
 first instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1270,9 +1270,9 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget>A phenotype of a population that is the death of some significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A phenotype of a population that is the death of some significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1311,8 +1311,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1351,8 +1351,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the P-stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the P-stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1431,8 +1431,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the second instar larval stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002022"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1511,8 +1511,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the third instar larval stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1592,8 +1592,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the prepupal stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the prepupal stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002026"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1633,8 +1633,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the pupal stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the pupal stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1713,8 +1713,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the prepupal stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1794,8 +1794,8 @@ third instar larval stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the embryonic stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of all animals in that population during the embryonic stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -1877,9 +1877,9 @@ prepual stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of the majority of animals in that population during the 
 prepual stage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -2041,8 +2041,8 @@ pharate adult stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the pupal stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002039"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -2121,8 +2121,8 @@ pharate adult stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death a significant proportion of animals in that population during the embryonic stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -2201,8 +2201,8 @@ pharate adult stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedTarget>A phenotype of a population that is the death of the majority of animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -2241,8 +2241,8 @@ pharate adult stage.</owl:annotatedTarget>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>A phenotype of a population that is the death of some significant number of animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A phenotype of a population that is the death of some significant number of animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBcv_0002051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
@@ -2278,13 +2278,13 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005337"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005289</oboInOwl:id>
@@ -2308,14 +2308,14 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005289"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005289"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2345,6 +2345,12 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005289"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005338"/>
             </owl:Restriction>
@@ -2353,12 +2359,6 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005289"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005337</oboInOwl:id>
@@ -2384,12 +2384,6 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005339"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005337"/>
             </owl:Restriction>
@@ -2398,6 +2392,12 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005338</oboInOwl:id>
@@ -2423,12 +2423,6 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005338"/>
             </owl:Restriction>
@@ -2436,13 +2430,19 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005342"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005342"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005339</oboInOwl:id>
@@ -2468,12 +2468,6 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
@@ -2482,6 +2476,12 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005349"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2512,8 +2512,8 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2524,8 +2524,8 @@ pharate adult stage.</owl:annotatedTarget>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005349</oboInOwl:id>
@@ -2558,13 +2558,13 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005369</oboInOwl:id>
@@ -2588,18 +2588,6 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005371"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
@@ -2608,6 +2596,18 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005370</oboInOwl:id>
@@ -2633,6 +2633,12 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005370"/>
             </owl:Restriction>
@@ -2641,12 +2647,6 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005371</oboInOwl:id>
@@ -2672,6 +2672,12 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
@@ -2692,12 +2698,6 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005370"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00006011</oboInOwl:id>
@@ -2723,6 +2723,12 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
             </owl:Restriction>
@@ -2731,12 +2737,6 @@ pharate adult stage.</owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005371"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult stage immediately after wing expansion, during which tanning of the cuticle is completed.  This stage lasts approximately 45 minutes at 25&apos;C.</obo:IAO_0000115>
@@ -2762,20 +2762,20 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005369"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005339"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005369"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2786,8 +2786,8 @@ pharate adult stage.</owl:annotatedTarget>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008-06-05T04:51:40Z</oboInOwl:creation_date>
@@ -2837,7 +2837,7 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2849,7 +2849,7 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-01-08T20:06:59Z</oboInOwl:creation_date>
@@ -2876,13 +2876,13 @@ pharate adult stage.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00006012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FBdv_00007025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-01-10T13:03:54Z</oboInOwl:creation_date>
