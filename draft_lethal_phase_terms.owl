@@ -170,6 +170,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of some significant proportion of animals in that population, but less that half, prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -211,6 +212,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref>FBC:KM</oboInOwl:hasDbXref>
@@ -254,6 +256,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a majority of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -298,6 +301,7 @@
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <oboInOwl:hasExactSynonym>lethal - all die before end of pharate adult stage</oboInOwl:hasExactSynonym>
         <rdfs:comment>As the P-Stage and the &apos;pharate adult stage&apos; have the same end,  there is no need for a seprate term for &apos;lethal - all die before end of pharate adult stage.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages prior to eclosion from the pupal case (the end of the P-stage).</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -340,6 +344,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the first instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -381,6 +386,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <rdfs:comment>As the larval stage and third instar larval stage have the same end,  there is no need for a separate term for &apos;lethal - all die before end of third instar larval stage&apos;.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the larval stage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>lethal - all die before end of third instar larval stage</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
@@ -424,6 +430,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the second instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -463,6 +470,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the P-stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -503,6 +511,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the first instar larval stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -544,6 +553,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -584,6 +594,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the second instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -624,6 +635,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the third instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -664,6 +676,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the P-stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -703,6 +716,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 first instar larval stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
@@ -747,6 +761,7 @@ first instar larval stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -789,6 +804,7 @@ larval stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 second instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -831,6 +847,7 @@ second instar larval stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 third instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -874,6 +891,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of some significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -916,6 +934,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population prior to becoming a mature adult, where mature is defined as after adult stage A3 (FBdv:00006012).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -955,6 +974,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the P-stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -996,6 +1016,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the first instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1035,6 +1056,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the second instar larval stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1075,6 +1097,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the larval stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1116,6 +1139,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the third instar larval stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1156,6 +1180,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the pharate adult stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1196,6 +1221,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the prepupal stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1238,6 +1264,7 @@ third instar larval stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the pupal stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1277,6 +1304,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the pupal stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1318,6 +1346,7 @@ third instar larval stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the prepupal stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1359,6 +1388,7 @@ third instar larval stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;scratch_0008217"/>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population at some stage or stages before the end of the embryonic stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1398,6 +1428,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population during the embryonic stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1438,6 +1469,7 @@ third instar larval stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 pupal stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
@@ -1480,6 +1512,7 @@ pupal stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 prepual stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
@@ -1524,6 +1557,7 @@ prepual stage.</owl:annotatedTarget>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the 
 pharate adult stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1564,6 +1598,7 @@ pharate adult stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <rdfs:comment>This term is agnostic about whether any survive to adulthood.</rdfs:comment>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population during the embryonic stage.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
@@ -1606,6 +1641,7 @@ pharate adult stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the pharate adult stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1646,6 +1682,7 @@ pharate adult stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the pupal stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1686,6 +1723,7 @@ pharate adult stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the prepual stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1726,6 +1764,7 @@ pharate adult stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death a significant proportion of animals in that population during the embryonic stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1765,6 +1804,7 @@ pharate adult stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of all animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1805,6 +1845,7 @@ pharate adult stage.</owl:annotatedTarget>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>A phenotype of a population that is the death of the majority of animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
@@ -1846,6 +1887,7 @@ pharate adult stage.</owl:annotatedTarget>
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A phenotype of a population that is the death of some significant number of animals in that population as immature adults (after eclosion but before the end of adult stage A3 (FBdv:00006012)).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
     <owl:Axiom>
@@ -1862,6 +1904,7 @@ pharate adult stage.</owl:annotatedTarget>
     <owl:Class rdf:about="&obo;scratch_0008217">
         <rdfs:label xml:lang="en">mortality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;FBcv_0000347"/>
+        <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
     </owl:Class>
 </rdf:RDF>
 
