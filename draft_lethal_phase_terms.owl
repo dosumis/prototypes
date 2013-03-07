@@ -299,16 +299,9 @@
             </owl:Class>
         </owl:equivalentClass>
         <oboInOwl:hasOBONamespace>phenotypic_class</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>A phenotype that is a shorter adult life-span than wild-type.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>increased adult mortality</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="&obo;FBcv#camcur"/>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>FBC:DOS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A phenotype that is a shorter adult life-span than wild-type.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;FBcv_0000385"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-    </owl:Axiom>
     
 
 
