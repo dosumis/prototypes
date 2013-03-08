@@ -35,6 +35,8 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
     <owl:AnnotationProperty rdf:about="&Ontology1275387730635;NRTF0000024">
@@ -78,11 +80,11 @@
         <owl:inverseOf rdf:resource="&obo;BFO_0000062"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002089"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002092"/>
+            <rdf:Description rdf:about="&obo;RO_0002093"/>
             <rdf:Description rdf:about="&obo;BFO_0000060"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002093"/>
+            <rdf:Description rdf:about="&obo;RO_0002092"/>
             <rdf:Description rdf:about="&obo;BFO_0000060"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -299,7 +301,9 @@
         <rdfs:label xml:lang="en">process boundary</rdfs:label>
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="&obo;BFO_0000003"/>
-        <rdfs:comment>time dimension = 0.  An event is an instant.</rdfs:comment>
+        <obo:IAO_0000115>time dimension = 0.  An event is an instant.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>event</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Using BFO process boundary here, although I&apos;d rather use a term name that didn&apos;t reference processes at all, which I see as distinct from stages.</rdfs:comment>
     </owl:Class>
     
 

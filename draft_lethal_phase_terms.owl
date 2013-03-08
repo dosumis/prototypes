@@ -1928,21 +1928,6 @@
         <owl:annotatedSource rdf:resource="&obo;FBcv_0002051"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/BFO_0000035">
-        <oboInOwl:hasRelatedSynonym>event</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>Using BFO process boundary here, although I&apos;d rather use a term name that didn&apos;t reference processes at all, which I see as distinct from stages.</rdfs:comment>
-    </rdf:Description>
 </rdf:RDF>
 
 
