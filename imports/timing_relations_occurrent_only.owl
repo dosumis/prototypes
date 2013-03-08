@@ -101,11 +101,11 @@
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002086"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002091"/>
+            <rdf:Description rdf:about="&obo;RO_0002092"/>
             <rdf:Description rdf:about="&obo;BFO_0000062"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002092"/>
+            <rdf:Description rdf:about="&obo;RO_0002091"/>
             <rdf:Description rdf:about="&obo;BFO_0000062"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -118,8 +118,8 @@
         <rdfs:label xml:lang="en">before_or_simultaneous_with</rdfs:label>
         <rdfs:comment>Primitive instance level timing relation between events</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">&lt;=</oboInOwl:hasExactSynonym>
-        <rdfs:range rdf:resource="&Ontology1275387730635;NRTF0000015"/>
-        <rdfs:domain rdf:resource="&Ontology1275387730635;NRTF0000015"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -131,9 +131,9 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">simultaneous_with</rdfs:label>
         <rdfs:comment xml:lang="en">t1 simultaneous_with t2 iff:=  t1 before_or_simultaneous_with t2  and not (t1 before t2)</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002081"/>
-        <rdfs:domain rdf:resource="&Ontology1275387730635;NRTF0000015"/>
-        <rdfs:range rdf:resource="&Ontology1275387730635;NRTF0000015"/>
     </owl:ObjectProperty>
     
 
@@ -144,9 +144,9 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label xml:lang="en">before</rdfs:label>
         <rdfs:comment xml:lang="en">t1 before t2 iff:=  t1 before_or_simulataneous_with t2  and not (t1 simultaeous_with t2)</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/BFO_0000035"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002081"/>
-        <rdfs:domain rdf:resource="&Ontology1275387730635;NRTF0000015"/>
-        <rdfs:range rdf:resource="&Ontology1275387730635;NRTF0000015"/>
     </owl:ObjectProperty>
     
 
@@ -293,22 +293,20 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+    <!-- http://purl.obolibrary.org/BFO_0000035 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000003">
-        <rdfs:label xml:lang="en">occurrent</rdfs:label>
-        <owl:disjointWith rdf:resource="&Ontology1275387730635;NRTF0000015"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/BFO_0000035">
+        <rdfs:label xml:lang="en">process boundary</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <owl:disjointWith rdf:resource="&obo;BFO_0000003"/>
+        <rdfs:comment>time dimension = 0.  An event is an instant.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2010/5/Ontology1275387730635.owl:NRTF0000015 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
-    <owl:Class rdf:about="&Ontology1275387730635;NRTF0000015">
-        <rdfs:label xml:lang="en">event</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
-        <rdfs:comment>time dimension = 0.  An event is an instant.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000003"/>
 </rdf:RDF>
 
 
