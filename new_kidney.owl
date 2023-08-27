@@ -1,0 +1,1712 @@
+@prefix ns1: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:049414ab-ef31-45f6-8ee1-ada4442170d5 a ns1:CellSet ;
+    rdfs:label "aPT" ;
+    ns1:celltype "aPT" ;
+    ns1:subclass.l2 "aPT" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86 .
+
+ns1:0906369d-5047-48b2-9dfc-28fc2e0f741d a ns1:CellSet ;
+    rdfs:label "aFIB" ;
+    ns1:celltype "aFIB" ;
+    ns1:subclass.l2 "aFIB" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6,
+        ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 .
+
+ns1:0babfcb7-87ca-40e6-a7ed-b369f2853671 a ns1:CellSet ;
+    rdfs:label "EC-AEA" ;
+    ns1:celltype "EC-AEA" ;
+    ns1:subclass.l2 "EC-AEA" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:0bd548b9-8546-4ee4-bbc2-a51e502d7933 a ns1:CellSet ;
+    rdfs:label "dIC-A" ;
+    ns1:celltype "dIC-A" ;
+    ns1:subclass.l2 "dIC-A" ;
+    ns1:subcluster_of ns1:34683655-4485-43f3-b610-53a0edc1cb73 .
+
+ns1:0ccb60e2-e419-40ab-a13d-f7d6c913fcc2 a ns1:CellSet ;
+    rdfs:label "IC-B" ;
+    ns1:celltype "IC-B" ;
+    ns1:subclass.l2 "IC-B" ;
+    ns1:subcluster_of ns1:34683655-4485-43f3-b610-53a0edc1cb73,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:194923cf-08cf-4929-87e1-f0e0d767752d a ns1:CellSet ;
+    rdfs:label "VSMC/P" ;
+    ns1:celltype "VSMC/P" ;
+    ns1:subclass.l2 "VSMC/P" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6,
+        ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 .
+
+ns1:2307b41b-1668-4b5c-9611-1b4e0a9b3b8f a ns1:CellSet ;
+    rdfs:label "dPT/DTL" ;
+    ns1:celltype "dPT/DTL" ;
+    ns1:subclass.l2 "dPT/DTL" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86 .
+
+ns1:243eb184-ddb4-4efc-89fc-3fc09866066a a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000653> ],
+        ns1:CellSet ;
+    rdfs:label "podocyte" ;
+    ns1:cell_type "podocyte" ;
+    ns1:celltype "POD" ;
+    ns1:subclass.l1 "POD" ;
+    ns1:subclass.l2 "POD" .
+
+ns1:25aec3f9-eda5-433c-beb9-97967796bb6c a ns1:CellSet ;
+    rdfs:label "NKT" ;
+    ns1:celltype "NKT" ;
+    ns1:subclass.l2 "NKT" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:2a7966ba-5ec8-491f-baf8-1f1b0f88c402 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1000452> ],
+        ns1:CellSet ;
+    rdfs:label "parietal epithelial cell" ;
+    ns1:cell_type "parietal epithelial cell" ;
+    ns1:celltype "PEC" ;
+    ns1:subclass.l1 "PEC" ;
+    ns1:subclass.l2 "PEC" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:2c2265a9-b0ff-4b1e-a994-a669cfb2db2b a ns1:CellSet ;
+    rdfs:label "T" ;
+    ns1:celltype "T" ;
+    ns1:subclass.l2 "T" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4 .
+
+ns1:2c3fa9b4-acc1-41a1-ac28-6da41ffe2359 a ns1:CellSet ;
+    rdfs:label "MAST" ;
+    ns1:celltype "MAST" ;
+    ns1:subclass.l2 "MAST" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4 .
+
+ns1:328873c3-0be2-41c3-b845-78df44606d16 a ns1:CellSet ;
+    rdfs:label "dC-TAL" ;
+    ns1:celltype "dC-TAL" ;
+    ns1:subclass.l2 "dC-TAL" ;
+    ns1:subcluster_of ns1:949d7b2e-e172-46f7-8ce8-f4d8328701c2 .
+
+ns1:370b3371-e9fd-4eb4-a792-87f4d089ca8a a ns1:CellSet ;
+    rdfs:label "MAC-M2" ;
+    ns1:celltype "MAC-M2" ;
+    ns1:subclass.l2 "MAC-M2" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:37baf6c9-9b16-4de6-ba26-908ead565c5e a ns1:CellSet ;
+    rdfs:label "PL" ;
+    ns1:celltype "PL" ;
+    ns1:subclass.l2 "PL" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:389e2787-178c-4eae-a84a-abb202d0a4f6 a ns1:CellSet ;
+    rdfs:label "PT-S3" ;
+    ns1:celltype "PT-S3" ;
+    ns1:subclass.l2 "PT-S3" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:39327969-d256-49c3-87f1-41ce2735a563 a ns1:CellSet ;
+    rdfs:label "T-REG" ;
+    ns1:celltype "T-REG" ;
+    ns1:subclass.l2 "T-REG" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:4652c3c2-5c1b-4214-a0c9-047a96c2533a a ns1:CellSet ;
+    rdfs:label "cycEC" ;
+    ns1:celltype "cycEC" ;
+    ns1:subclass.l2 "cycEC" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:5538e295-230d-4a4c-a022-dbf966bcc607 a ns1:CellSet ;
+    rdfs:label "dCNT-PC" ;
+    ns1:celltype "dCNT-PC" ;
+    ns1:subclass.l2 "dCNT-PC" ;
+    ns1:subcluster_of ns1:87779d82-5153-46f4-9702-5e84e76004ac .
+
+ns1:5b9fdb93-23f5-40fe-9caa-58a5c6d86cc5 a ns1:CellSet ;
+    rdfs:label "MC" ;
+    ns1:celltype "MC" ;
+    ns1:subclass.l2 "MC" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6 .
+
+ns1:602a325d-4114-4933-b572-dd77525b5a9c a ns1:CellSet ;
+    rdfs:label "CNT-IC-A" ;
+    ns1:celltype "CNT-IC-A" ;
+    ns1:subclass.l2 "CNT-IC-A" ;
+    ns1:subcluster_of ns1:34683655-4485-43f3-b610-53a0edc1cb73,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:60e51126-b24c-4c3b-8b26-072e0e0df178 a ns1:CellSet ;
+    rdfs:label "tPC-IC" ;
+    ns1:celltype "tPC-IC" ;
+    ns1:subclass.l2 "tPC-IC" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:87779d82-5153-46f4-9702-5e84e76004ac .
+
+ns1:6a4c71a6-b36e-49bb-8e64-41262920cf23 a ns1:CellSet ;
+    rdfs:label "REN" ;
+    ns1:celltype "REN" ;
+    ns1:subclass.l2 "REN" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6,
+        ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 .
+
+ns1:6fc0bea3-ff95-424b-b67c-7fc78eb9ed04 a ns1:CellSet ;
+    rdfs:label "cycT" ;
+    ns1:celltype "cycT" ;
+    ns1:subclass.l2 "cycT" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:712bd233-6e7f-4ffd-b990-e8de2a172ac4 a ns1:CellSet ;
+    rdfs:label "MON" ;
+    ns1:celltype "MON" ;
+    ns1:subclass.l2 "MON" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:762f5d2b-d420-4111-b919-592be7942b7b a ns1:CellSet ;
+    rdfs:label "NK1" ;
+    ns1:celltype "NK1" ;
+    ns1:subclass.l2 "NK1" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:76dd014d-cfdb-4842-a378-2d2108524b54 a ns1:CellSet ;
+    rdfs:label "FIB" ;
+    ns1:celltype "FIB" ;
+    ns1:subclass.l2 "FIB" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6 .
+
+ns1:79e72c07-baec-4776-9d5b-bcc27193c519 a ns1:CellSet ;
+    rdfs:label "EC-PTC" ;
+    ns1:celltype "EC-PTC" ;
+    ns1:subclass.l2 "EC-PTC" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:7dcf1b85-0547-4d6c-a9e4-0f29fe9bcd8b a ns1:CellSet ;
+    rdfs:label "cycMNP" ;
+    ns1:celltype "cycMNP" ;
+    ns1:subclass.l2 "cycMNP" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:7ebbb4fe-7418-4325-a0d5-ac4703bad26e a ns1:CellSet ;
+    rdfs:label "M-TAL" ;
+    ns1:celltype "M-TAL" ;
+    ns1:subclass.l2 "M-TAL" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:949d7b2e-e172-46f7-8ce8-f4d8328701c2 .
+
+ns1:880c3ec3-73ad-4b05-85e3-bef61cae44ed a ns1:CellSet ;
+    rdfs:label "PC" ;
+    ns1:celltype "PC" ;
+    ns1:subclass.l2 "PC" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:87779d82-5153-46f4-9702-5e84e76004ac .
+
+ns1:895faf4d-a4ad-4081-bed1-45669c1a6756 a ns1:CellSet ;
+    rdfs:label "dDCT" ;
+    ns1:celltype "dDCT" ;
+    ns1:subclass.l2 "dDCT" ;
+    ns1:subcluster_of ns1:d9101205-ffbb-462b-8884-105d05a1cee4 .
+
+ns1:89e8e076-cac0-4357-a46d-89519660a07a a ns1:CellSet ;
+    rdfs:label "ncMON" ;
+    ns1:celltype "ncMON" ;
+    ns1:subclass.l2 "ncMON" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:8bd5da2d-7a1f-4df6-9a5a-7233a7231fe7 a ns1:CellSet ;
+    rdfs:label "MDC" ;
+    ns1:celltype "MDC" ;
+    ns1:subclass.l2 "MDC" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4 .
+
+ns1:95b83ff3-7456-4645-ba03-5ea98bb82b04 a ns1:CellSet ;
+    rdfs:label "T-CYT" ;
+    ns1:celltype "T-CYT" ;
+    ns1:subclass.l2 "T-CYT" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:960a5431-28bf-4d79-86e7-988e9cef2117 a ns1:CellSet ;
+    rdfs:label "cDC" ;
+    ns1:celltype "cDC" ;
+    ns1:subclass.l2 "cDC" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:99c27395-c924-431b-bc11-71390a7af917 a ns1:CellSet ;
+    rdfs:label "dEC-PTC" ;
+    ns1:celltype "dEC-PTC" ;
+    ns1:subclass.l2 "dEC-PTC" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:a42b96f2-99a8-4e83-b17f-03e53c308d86 a ns1:CellSet ;
+    rdfs:label "IC-A" ;
+    ns1:celltype "IC-A" ;
+    ns1:subclass.l2 "IC-A" ;
+    ns1:subcluster_of ns1:34683655-4485-43f3-b610-53a0edc1cb73,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:ad38f7a6-9548-435b-b023-18ec50c353b2 a ns1:CellSet ;
+    rdfs:label "PT-S1/S2" ;
+    ns1:celltype "PT-S1/S2" ;
+    ns1:subclass.l2 "PT-S1/S2" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:b3ba259b-824d-4c79-a355-448a19c27f85 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1001111> ],
+        ns1:CellSet ;
+    rdfs:label "kidney loop of Henle thin descending limb epithelial cell" ;
+    ns1:cell_type "kidney loop of Henle thin descending limb epithelial cell" ;
+    ns1:celltype "DTL1" ;
+    ns1:subclass.l1 "DTL" ;
+    ns1:subclass.l2 "DTL1" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:bb85b411-5223-43bf-be76-308a95378e8d a ns1:CellSet ;
+    rdfs:label "aTAL1" ;
+    ns1:celltype "aTAL1" ;
+    ns1:subclass.l2 "aTAL1" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:c24bce2c-1c41-42ad-8db1-f980d92f3e23 .
+
+ns1:bde8b39b-906a-44b8-ba4b-bc0b4fccf910 a ns1:CellSet ;
+    rdfs:label "MyoF" ;
+    ns1:celltype "MyoF" ;
+    ns1:subclass.l2 "MyoF" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6,
+        ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 .
+
+ns1:c245b566-d710-4395-b187-4e90fd19eac3 a ns1:CellSet ;
+    rdfs:label "dPT" ;
+    ns1:celltype "dPT" ;
+    ns1:subclass.l2 "dPT" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:c31bfb03-1d8e-4f55-8d77-8db5ba571b09 a ns1:CellSet ;
+    rdfs:label "dVSMC" ;
+    ns1:celltype "dVSMC" ;
+    ns1:subclass.l2 "dVSMC" ;
+    ns1:subcluster_of ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6,
+        ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 .
+
+ns1:c3bf95d0-a03c-490f-904e-34dbbcdcdf50 a ns1:CellSet ;
+    rdfs:label "CNT" ;
+    ns1:celltype "CNT" ;
+    ns1:subclass.l2 "CNT" ;
+    ns1:subcluster_of ns1:d62d6d67-d5f9-4fd1-98bf-690dd0fa88c7 .
+
+ns1:c423f5f9-780c-4d5c-bb01-3c91f63b39ba a ns1:CellSet ;
+    rdfs:label "dCNT" ;
+    ns1:celltype "dCNT" ;
+    ns1:subclass.l2 "dCNT" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:d62d6d67-d5f9-4fd1-98bf-690dd0fa88c7 .
+
+ns1:d5d82a4e-485c-425e-9423-5c3935e8e76b a ns1:CellSet ;
+    rdfs:label "dPC" ;
+    ns1:celltype "dPC" ;
+    ns1:subclass.l2 "dPC" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:87779d82-5153-46f4-9702-5e84e76004ac .
+
+ns1:d6ade043-5418-4e6b-bb44-33e94feb95fc a ns1:CellSet ;
+    rdfs:label "EC-LYM" ;
+    ns1:celltype "EC-LYM" ;
+    ns1:subclass.l2 "EC-LYM" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:d6e88ce5-70f2-49e1-af1c-50a6e007311a a ns1:CellSet ;
+    rdfs:label "CNT-PC" ;
+    ns1:celltype "CNT-PC" ;
+    ns1:subclass.l2 "CNT-PC" ;
+    ns1:subcluster_of ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd,
+        ns1:87779d82-5153-46f4-9702-5e84e76004ac .
+
+ns1:d8f858bd-d362-47ac-9de4-ef1d375cd5c9 a ns1:CellSet ;
+    rdfs:label "EC-GC" ;
+    ns1:celltype "EC-GC" ;
+    ns1:subclass.l2 "EC-GC" ;
+    ns1:subcluster_of ns1:0f96b41e-40d8-4edb-8900-b901740c69db,
+        ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:dc00ca5f-58cd-4e1e-8f4a-7a3eb8d931c1 a ns1:CellSet ;
+    rdfs:label "DCT1" ;
+    ns1:celltype "DCT1" ;
+    ns1:subclass.l2 "DCT1" ;
+    ns1:subcluster_of ns1:d9101205-ffbb-462b-8884-105d05a1cee4 .
+
+ns1:e05d087e-870b-4800-931d-178a66b7f93d a ns1:CellSet ;
+    rdfs:label "C-TAL" ;
+    ns1:celltype "C-TAL" ;
+    ns1:subclass.l2 "C-TAL" ;
+    ns1:subcluster_of ns1:949d7b2e-e172-46f7-8ce8-f4d8328701c2 .
+
+ns1:e2b3cb85-0d1e-46cc-a09e-fa8e0edd1e26 a ns1:CellSet ;
+    rdfs:label "cycEPI" ;
+    ns1:celltype "cycEPI" ;
+    ns1:subclass.l2 "cycEPI" ;
+    ns1:subcluster_of ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86,
+        ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd .
+
+ns1:e4f763a8-a145-49ef-9665-3197d434decf a ns1:CellSet ;
+    rdfs:label "B" ;
+    ns1:celltype "B" ;
+    ns1:subclass.l2 "B" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:e5781d61-b931-469a-9505-dd9b75fba0c0 a ns1:CellSet ;
+    rdfs:label "pDC" ;
+    ns1:celltype "pDC" ;
+    ns1:subclass.l2 "pDC" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:e5944736-b20d-4664-b88a-09b8f760935e a ns1:CellSet ;
+    rdfs:label "NK2" ;
+    ns1:celltype "NK2" ;
+    ns1:subclass.l2 "NK2" ;
+    ns1:subcluster_of ns1:416acea8-dffc-457f-8aad-7af3feac46d4,
+        ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 .
+
+ns1:fe457757-ae6f-4dbb-a583-a0f9faf061ba a ns1:CellSet ;
+    rdfs:label "aTAL2" ;
+    ns1:celltype "aTAL2" ;
+    ns1:subclass.l2 "aTAL2" ;
+    ns1:subcluster_of ns1:c24bce2c-1c41-42ad-8db1-f980d92f3e23 .
+
+ns1:subcluster_of a owl:ObjectProperty .
+
+<http://purl.obolibrary.org/obo/CL_0000648> rdfs:label "kidney granular cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000618> .
+
+<http://purl.obolibrary.org/obo/CL_0001226> rdfs:label "major calyx" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006517> .
+
+<http://purl.obolibrary.org/obo/CL_0001227> rdfs:label "minor calyx" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006517> .
+
+<http://purl.obolibrary.org/obo/CL_0001289> rdfs:label "descending limb of loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0001552> rdfs:label "kidney arcuate artery" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0002173> rdfs:label "extraglomerular mesangial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000618>,
+        <http://purl.obolibrary.org/obo/CL_1001318> .
+
+<http://purl.obolibrary.org/obo/CL_0002189> rdfs:label "outer cortex of kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001225> .
+
+<http://purl.obolibrary.org/obo/CL_0002307> rdfs:label "brush border cell of the proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_0002519> rdfs:label "interrenal epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002518> .
+
+<http://purl.obolibrary.org/obo/CL_0002523> rdfs:label "mesonephric podocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000653> .
+
+<http://purl.obolibrary.org/obo/CL_0002525> rdfs:label "metanephric podocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000653> .
+
+<http://purl.obolibrary.org/obo/CL_0003060> rdfs:label "pronephric duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0009201> .
+
+<http://purl.obolibrary.org/obo/CL_0003074> rdfs:label "mesonephric duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0009201> .
+
+<http://purl.obolibrary.org/obo/CL_0003455> rdfs:label "inner renal medulla loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0034997> .
+
+<http://purl.obolibrary.org/obo/CL_0003546> rdfs:label "distal convoluted tubule macula densa" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002335> .
+
+<http://purl.obolibrary.org/obo/CL_0004136> rdfs:label "intermediate tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0004204> rdfs:label "outer medullary collecting duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001232> .
+
+<http://purl.obolibrary.org/obo/CL_0004205> rdfs:label "inner medullary collecting duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001232> .
+
+<http://purl.obolibrary.org/obo/CL_0004294> rdfs:label "glomerular capillary endothelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004189> .
+
+<http://purl.obolibrary.org/obo/CL_0004639> rdfs:label "renal afferent arteriole" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0004640> rdfs:label "renal efferent arteriole" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0004719> rdfs:label "kidney arcuate vein" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0014401> .
+
+<http://purl.obolibrary.org/obo/CL_0004723> rdfs:label "interlobular artery" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0004736> rdfs:label "metanephric glomerulus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000074> .
+
+<http://purl.obolibrary.org/obo/CL_0004737> rdfs:label "metanephric collecting duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001232> .
+
+<http://purl.obolibrary.org/obo/CL_0004738> rdfs:label "metanephric juxtaglomerular apparatus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002303> .
+
+<http://purl.obolibrary.org/obo/CL_0004739> rdfs:label "pronephric glomerulus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000074> .
+
+<http://purl.obolibrary.org/obo/CL_0004775> rdfs:label "outer renal medulla vasa recta" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0014401> .
+
+<http://purl.obolibrary.org/obo/CL_0004776> rdfs:label "inner renal medulla vasa recta" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0014401> .
+
+<http://purl.obolibrary.org/obo/CL_0005007> rdfs:label "mucosa of major calyx" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005006> .
+
+<http://purl.obolibrary.org/obo/CL_0005008> rdfs:label "mucosa of minor calyx" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005006> .
+
+<http://purl.obolibrary.org/obo/CL_0005080> rdfs:label "metanephric ureteric bud" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0005081> rdfs:label "ureter ureteric bud" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0005104> rdfs:label "anterior mesonephric tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0005105> rdfs:label "posterior mesonephric tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0005111> rdfs:label "metanephric pyramid" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004200> .
+
+<http://purl.obolibrary.org/obo/CL_0005114> rdfs:label "metanephric ascending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004193>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005115> rdfs:label "metanephric cortical collecting duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004203> .
+
+<http://purl.obolibrary.org/obo/CL_0005116> rdfs:label "metanephric descending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005096> .
+
+<http://purl.obolibrary.org/obo/CL_0005117> rdfs:label "metanephric distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001292>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005118> rdfs:label "metanephric early distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005101>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005119> rdfs:label "metanephric glomerular mesangium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002320> .
+
+<http://purl.obolibrary.org/obo/CL_0005120> rdfs:label "metanephric late distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005102>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005121> rdfs:label "metanephric long descending thin limb bend" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004206> .
+
+<http://purl.obolibrary.org/obo/CL_0005122> rdfs:label "metanephric macula densa" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002335>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005123> rdfs:label "metanephric prebend segment" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004207> .
+
+<http://purl.obolibrary.org/obo/CL_0005124> rdfs:label "metanephric proximal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001287>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005125> rdfs:label "metanephric proximal straight tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001290>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005126> rdfs:label "metanephric S1" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004196> .
+
+<http://purl.obolibrary.org/obo/CL_0005127> rdfs:label "metanephric thick ascending limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001291>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005129> rdfs:label "metanephric distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004135>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005130> rdfs:label "metanephric loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001288>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005132> rdfs:label "metanephric long nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004194>,
+        <http://purl.obolibrary.org/obo/CL_0005110> .
+
+<http://purl.obolibrary.org/obo/CL_0005133> rdfs:label "metanephric glomerulus vasculature" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004190> .
+
+<http://purl.obolibrary.org/obo/CL_0005136> rdfs:label "metanephric glomerular endothelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004189>,
+        <http://purl.obolibrary.org/obo/CL_0005135> .
+
+<http://purl.obolibrary.org/obo/CL_0005137> rdfs:label "metanephric capsule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002015> .
+
+<http://purl.obolibrary.org/obo/CL_0005139> rdfs:label "metanephric long descending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005100>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005140> rdfs:label "metanephric short nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004195>,
+        <http://purl.obolibrary.org/obo/CL_0005110> .
+
+<http://purl.obolibrary.org/obo/CL_0005141> rdfs:label "metanephric short descending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005099>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005144> rdfs:label "metanephric glomerular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004212> .
+
+<http://purl.obolibrary.org/obo/CL_0005145> rdfs:label "metanephric comma-shaped body" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004198> .
+
+<http://purl.obolibrary.org/obo/CL_0005147> rdfs:label "metanephric renal vesicle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005108> .
+
+<http://purl.obolibrary.org/obo/CL_0005148> rdfs:label "metanephric S-shaped body" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004199> .
+
+<http://purl.obolibrary.org/obo/CL_0005149> rdfs:label "metanephric connecting tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005097>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005151> rdfs:label "metanephric proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004134>,
+        <http://purl.obolibrary.org/obo/CL_0005146> .
+
+<http://purl.obolibrary.org/obo/CL_0005164> rdfs:label "ascending limb of loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004135> .
+
+<http://purl.obolibrary.org/obo/CL_0005167> rdfs:label "papillary duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001232> .
+
+<http://purl.obolibrary.org/obo/CL_0005168> rdfs:label "renal interlobular vein" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0014401> .
+
+<http://purl.obolibrary.org/obo/CL_0005202> rdfs:label "distal straight tubule macula densa" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002335> .
+
+<http://purl.obolibrary.org/obo/CL_0005213> rdfs:label "outer renal medulla interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005211> .
+
+<http://purl.obolibrary.org/obo/CL_0005214> rdfs:label "inner renal medulla interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005211> .
+
+<http://purl.obolibrary.org/obo/CL_0005249> rdfs:label "metanephric renal pelvis" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001224> .
+
+<http://purl.obolibrary.org/obo/CL_0005268> rdfs:label "renal cortex artery" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0005269> rdfs:label "renal cortex vein" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0014401> .
+
+<http://purl.obolibrary.org/obo/CL_0005309> rdfs:label "pronephric nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001285> .
+
+<http://purl.obolibrary.org/obo/CL_0005312> rdfs:label "primary ureteric bud" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0005319> rdfs:label "mesonephric collecting duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001232> .
+
+<http://purl.obolibrary.org/obo/CL_0005320> rdfs:label "mesonephric juxtaglomerular apparatus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002303> .
+
+<http://purl.obolibrary.org/obo/CL_0005322> rdfs:label "mesonephric nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001285> .
+
+<http://purl.obolibrary.org/obo/CL_0005324> rdfs:label "mesonephric macula densa" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002335>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0005325> rdfs:label "mesonephric glomerulus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000074> .
+
+<http://purl.obolibrary.org/obo/CL_0005326> rdfs:label "mesonephric glomerulus vasculature" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004190> .
+
+<http://purl.obolibrary.org/obo/CL_0005327> rdfs:label "mesonephric glomerular epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004188>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0005328> rdfs:label "mesonephric comma-shaped body" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004198> .
+
+<http://purl.obolibrary.org/obo/CL_0005329> rdfs:label "mesonephric nephron tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0001231>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0005331> rdfs:label "mesonephric renal vesicle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005103> .
+
+<http://purl.obolibrary.org/obo/CL_0005332> rdfs:label "mesonephric S-shaped body" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004199> .
+
+<http://purl.obolibrary.org/obo/CL_0005750> rdfs:label "glomerular parietal epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004188> .
+
+<http://purl.obolibrary.org/obo/CL_0005751> rdfs:label "glomerular visceral epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004188> .
+
+<http://purl.obolibrary.org/obo/CL_0005892> rdfs:label "mesonephric early distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0005912> rdfs:label "transitional epithelium of major calyx" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004788> .
+
+<http://purl.obolibrary.org/obo/CL_0006170> rdfs:label "mesonephric capsule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002015> .
+
+<http://purl.obolibrary.org/obo/CL_0006173> rdfs:label "pronephric proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004134>,
+        <http://purl.obolibrary.org/obo/CL_0005310> .
+
+<http://purl.obolibrary.org/obo/CL_0006174> rdfs:label "pronephric sinus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006171> .
+
+<http://purl.obolibrary.org/obo/CL_0006175> rdfs:label "pronephric distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004135>,
+        <http://purl.obolibrary.org/obo/CL_0005310> .
+
+<http://purl.obolibrary.org/obo/CL_0006182> rdfs:label "mesonephric glomerular mesangium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002320> .
+
+<http://purl.obolibrary.org/obo/CL_0006183> rdfs:label "mesonephric glomerular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004212> .
+
+<http://purl.obolibrary.org/obo/CL_0006189> rdfs:label "mesonephric connecting tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0005097>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0006190> rdfs:label "mesonephric distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0004135>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0006192> rdfs:label "mesonephric proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0004134>,
+        <http://purl.obolibrary.org/obo/CL_0005330> .
+
+<http://purl.obolibrary.org/obo/CL_0006194> rdfs:label "renal sinus of right kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006171> .
+
+<http://purl.obolibrary.org/obo/CL_0006195> rdfs:label "renal sinus of left kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006171> .
+
+<http://purl.obolibrary.org/obo/CL_0006196> rdfs:label "mesonephric sinus" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006171> .
+
+<http://purl.obolibrary.org/obo/CL_0006341> rdfs:label "outer renal medulla peritubular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005272> .
+
+<http://purl.obolibrary.org/obo/CL_0006364> rdfs:label "ureteric bud tip" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0006373> rdfs:label "perihilar interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005215> .
+
+<http://purl.obolibrary.org/obo/CL_0006376> rdfs:label "premacula segment of distal straight tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0006541> rdfs:label "outer medulla inner stripe loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0034996> .
+
+<http://purl.obolibrary.org/obo/CL_0006542> rdfs:label "outer medulla outer stripe loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0034996> .
+
+<http://purl.obolibrary.org/obo/CL_0006851> rdfs:label "renal cortex peritubular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005272> .
+
+<http://purl.obolibrary.org/obo/CL_0006854> rdfs:label "distal straight tubule postmacula segment" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006853> .
+
+<http://purl.obolibrary.org/obo/CL_0007298> rdfs:label "pronephric proximal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001287>,
+        <http://purl.obolibrary.org/obo/CL_0005310> .
+
+<http://purl.obolibrary.org/obo/CL_0007306> rdfs:label "pronephric glomerular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004212> .
+
+<http://purl.obolibrary.org/obo/CL_0007307> rdfs:label "pronephric glomerular basement membrane" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005777> .
+
+<http://purl.obolibrary.org/obo/CL_0007308> rdfs:label "pronephric distal early tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005310>,
+        <http://purl.obolibrary.org/obo/CL_0006337> .
+
+<http://purl.obolibrary.org/obo/CL_0007653> rdfs:label "capillary loop nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0010532> .
+
+<http://purl.obolibrary.org/obo/CL_0007654> rdfs:label "maturing nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0010532> .
+
+<http://purl.obolibrary.org/obo/CL_0007684> rdfs:label "uriniferous tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_0008404> rdfs:label "proximal tubular epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004810> .
+
+<http://purl.obolibrary.org/obo/CL_0008408> rdfs:label "distal tubular epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004810> .
+
+<http://purl.obolibrary.org/obo/CL_0009019> rdfs:label "nephrogenic zone cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002681> .
+
+<http://purl.obolibrary.org/obo/CL_0009622> rdfs:label "pronephric proximal straight tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001290>,
+        <http://purl.obolibrary.org/obo/CL_0005310> .
+
+<http://purl.obolibrary.org/obo/CL_0010181> rdfs:label "straight venules of kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006544> .
+
+<http://purl.obolibrary.org/obo/CL_0010533> rdfs:label "metanephros cortex" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001225> .
+
+<http://purl.obolibrary.org/obo/CL_0010534> rdfs:label "primitive mesonephric nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083>,
+        <http://purl.obolibrary.org/obo/CL_0010532> .
+
+<http://purl.obolibrary.org/obo/CL_0010535> rdfs:label "primitive metanephric nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005106>,
+        <http://purl.obolibrary.org/obo/CL_0010532> .
+
+<http://purl.obolibrary.org/obo/CL_0012238> rdfs:label "ureteric bud trunk" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0012441> rdfs:label "endothelium of peritubular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_0014388> rdfs:label "kidney collecting duct epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0018115> rdfs:label "left renal pelvis" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001224> .
+
+<http://purl.obolibrary.org/obo/CL_0018116> rdfs:label "right renal pelvis" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001224> .
+
+<http://purl.obolibrary.org/obo/CL_0018117> rdfs:label "left renal cortex interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005270>,
+        <http://purl.obolibrary.org/obo/CL_0018113> .
+
+<http://purl.obolibrary.org/obo/CL_0018118> rdfs:label "right renal cortex interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005270>,
+        <http://purl.obolibrary.org/obo/CL_0018114> .
+
+<http://purl.obolibrary.org/obo/CL_0018119> rdfs:label "left renal medulla interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005211>,
+        <http://purl.obolibrary.org/obo/CL_0018113> .
+
+<http://purl.obolibrary.org/obo/CL_0018120> rdfs:label "right renal medulla interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005211>,
+        <http://purl.obolibrary.org/obo/CL_0018114> .
+
+<http://purl.obolibrary.org/obo/CL_0034884> rdfs:label "juxtaglomerular arteriole" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003644> .
+
+<http://purl.obolibrary.org/obo/CL_0035758> rdfs:label "peritubular capillary plexus of kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0035762> .
+
+<http://purl.obolibrary.org/obo/CL_1000022> rdfs:label "mesonephric nephron tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_1000090> rdfs:label "pronephric nephron tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_1000123> rdfs:label "metanephric nephron tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_1000546> rdfs:label "kidney medulla collecting duct epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000504>,
+        <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000596> rdfs:label "inner renal cortex cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002681> .
+
+<http://purl.obolibrary.org/obo/CL_1000597> rdfs:label "papillary tips cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000505>,
+        <http://purl.obolibrary.org/obo/CL_1000617> .
+
+<http://purl.obolibrary.org/obo/CL_1000606> rdfs:label "kidney nerve cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000691> rdfs:label "kidney interstitial myofibroblast" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000693> rdfs:label "kidney interstitial fibrocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000695> rdfs:label "kidney interstitial alternatively activated macrophage" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000696> rdfs:label "kidney interstitial inflammatory macrophage" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000697> rdfs:label "kidney interstitial suppressor macrophage" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000698> rdfs:label "kidney resident macrophage" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000699> rdfs:label "kidney resident dendritic cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000702> rdfs:label "kidney pelvis smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000505> .
+
+<http://purl.obolibrary.org/obo/CL_1000703> rdfs:label "kidney pelvis urothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002518>,
+        <http://purl.obolibrary.org/obo/CL_1000505> .
+
+<http://purl.obolibrary.org/obo/CL_1000714> rdfs:label "kidney cortex collecting duct principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000549>,
+        <http://purl.obolibrary.org/obo/CL_1001431> .
+
+<http://purl.obolibrary.org/obo/CL_1000716> rdfs:label "kidney outer medulla collecting duct principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000548>,
+        <http://purl.obolibrary.org/obo/CL_1001431> .
+
+<http://purl.obolibrary.org/obo/CL_1000717> rdfs:label "kidney outer medulla collecting duct intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000548>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
+<http://purl.obolibrary.org/obo/CL_1000718> rdfs:label "kidney inner medulla collecting duct principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000547>,
+        <http://purl.obolibrary.org/obo/CL_1001431> .
+
+<http://purl.obolibrary.org/obo/CL_1000719> rdfs:label "kidney inner medulla collecting duct intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000547>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
+<http://purl.obolibrary.org/obo/CL_1000720> rdfs:label "kidney papillary duct intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000550>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
+<http://purl.obolibrary.org/obo/CL_1000721> rdfs:label "kidney papillary duct principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000550>,
+        <http://purl.obolibrary.org/obo/CL_1001431> .
+
+<http://purl.obolibrary.org/obo/CL_1000742> rdfs:label "glomerular mesangial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000746>,
+        <http://purl.obolibrary.org/obo/CL_1001318> .
+
+<http://purl.obolibrary.org/obo/CL_1000803> rdfs:label "kidney inner medulla interstitial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000617>,
+        <http://purl.obolibrary.org/obo/CL_1000682> .
+
+<http://purl.obolibrary.org/obo/CL_1000804> rdfs:label "kidney outer medulla interstitial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1000682> .
+
+<http://purl.obolibrary.org/obo/CL_1000838> rdfs:label "kidney proximal convoluted tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_1000839> rdfs:label "kidney proximal straight tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306>,
+        <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001021> .
+
+<http://purl.obolibrary.org/obo/CL_1000850> rdfs:label "macula densa epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002305>,
+        <http://purl.obolibrary.org/obo/CL_1000618> .
+
+<http://purl.obolibrary.org/obo/CL_1001005> rdfs:label "glomerular capillary endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002188>,
+        <http://purl.obolibrary.org/obo/CL_1000510>,
+        <http://purl.obolibrary.org/obo/CL_1000892> .
+
+<http://purl.obolibrary.org/obo/CL_1001096> rdfs:label "kidney afferent arteriole endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001006>,
+        <http://purl.obolibrary.org/obo/CL_1001216> .
+
+<http://purl.obolibrary.org/obo/CL_1001097> rdfs:label "kidney afferent arteriole smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001006>,
+        <http://purl.obolibrary.org/obo/CL_1001066>,
+        <http://purl.obolibrary.org/obo/CL_1001217> .
+
+<http://purl.obolibrary.org/obo/CL_1001099> rdfs:label "kidney efferent arteriole endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1001009> .
+
+<http://purl.obolibrary.org/obo/CL_1001100> rdfs:label "kidney efferent arteriole smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001009>,
+        <http://purl.obolibrary.org/obo/CL_1001066> .
+
+<http://purl.obolibrary.org/obo/CL_1001108> rdfs:label "kidney loop of Henle medullary thick ascending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001106> .
+
+<http://purl.obolibrary.org/obo/CL_1001109> rdfs:label "kidney loop of Henle cortical thick ascending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001106> .
+
+<http://purl.obolibrary.org/obo/CL_1001123> rdfs:label "kidney outer medulla peritubular capillary cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001033> .
+
+<http://purl.obolibrary.org/obo/CL_1001124> rdfs:label "kidney cortex peritubular capillary cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001033> .
+
+<http://purl.obolibrary.org/obo/CL_1001209> rdfs:label "inner medulla vasa recta ascending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001126>,
+        <http://purl.obolibrary.org/obo/CL_1001131> .
+
+<http://purl.obolibrary.org/obo/CL_1001210> rdfs:label "outer medulla vasa recta ascending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001127>,
+        <http://purl.obolibrary.org/obo/CL_1001131> .
+
+<http://purl.obolibrary.org/obo/CL_1001213> rdfs:label "arcuate artery endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1001135> .
+
+<http://purl.obolibrary.org/obo/CL_1001214> rdfs:label "arcuate artery smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001064>,
+        <http://purl.obolibrary.org/obo/CL_1001135> .
+
+<http://purl.obolibrary.org/obo/CL_1001220> rdfs:label "arcuate vein endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1001142> .
+
+<http://purl.obolibrary.org/obo/CL_1001221> rdfs:label "arcuate vein smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001068>,
+        <http://purl.obolibrary.org/obo/CL_1001142> .
+
+<http://purl.obolibrary.org/obo/CL_1001223> rdfs:label "interlobulary vein endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1001145> .
+
+<http://purl.obolibrary.org/obo/CL_1001224> rdfs:label "interlobulary vein smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001068>,
+        <http://purl.obolibrary.org/obo/CL_1001145> .
+
+<http://purl.obolibrary.org/obo/CL_1001286> rdfs:label "inner medulla vasa recta descending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001126>,
+        <http://purl.obolibrary.org/obo/CL_1001285> .
+
+<http://purl.obolibrary.org/obo/CL_1001287> rdfs:label "outer medulla vasa recta descending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001127>,
+        <http://purl.obolibrary.org/obo/CL_1001285> .
+
+<http://purl.obolibrary.org/obo/CL_2002225> rdfs:label "posterior pronephric duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006553> .
+
+<http://purl.obolibrary.org/obo/CL_2005292> rdfs:label "distal late tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006553> .
+
+<http://purl.obolibrary.org/obo/CL_2005311> rdfs:label "pronephric glomerular capsule epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_3010392> rdfs:label "mesonephric early proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006553> .
+
+<http://purl.obolibrary.org/obo/CL_3010394> rdfs:label "mesonephric late proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006553> .
+
+<http://purl.obolibrary.org/obo/CL_4030005> rdfs:label "kidney collecting duct beta-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002201>,
+        <http://purl.obolibrary.org/obo/CL_1000715> .
+
+<http://purl.obolibrary.org/obo/CL_4030008> rdfs:label "pronephric podocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000653> .
+
+<http://purl.obolibrary.org/obo/CL_4030009> rdfs:label "epithelial cell of proximal tubule segment 1" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_4030010> rdfs:label "epithelial cell of proximal tubule segment 2" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_4030011> rdfs:label "epithelial cell of proximal tubule segment 3" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_4030012> rdfs:label "kidney loop of Henle short descending thin limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001111> .
+
+<http://purl.obolibrary.org/obo/CL_4030013> rdfs:label "kidney loop of Henle long descending thin limb outer medulla epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001111> .
+
+<http://purl.obolibrary.org/obo/CL_4030014> rdfs:label "kidney loop of Henle long descending thin limb inner medulla epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001111> .
+
+<http://purl.obolibrary.org/obo/CL_4030015> rdfs:label "kidney collecting duct alpha-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005011>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
+<http://purl.obolibrary.org/obo/CL_4030016> rdfs:label "epithelial cell of early distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000849> .
+
+<http://purl.obolibrary.org/obo/CL_4030017> rdfs:label "epithelial cell of late distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000849> .
+
+<http://purl.obolibrary.org/obo/CL_4030018> rdfs:label "kidney connecting tubule principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005009>,
+        <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_4030020> rdfs:label "kidney connecting tubule alpha-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005011>,
+        <http://purl.obolibrary.org/obo/CL_4030019> .
+
+<http://purl.obolibrary.org/obo/CL_4030021> rdfs:label "kidney connecting tubule beta-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002201>,
+        <http://purl.obolibrary.org/obo/CL_4030019> .
+
+<http://purl.obolibrary.org/obo/CL_4030022> rdfs:label "renal medullary fibroblast" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000682>,
+        <http://purl.obolibrary.org/obo/CL_1000692> .
+
+<http://purl.obolibrary.org/obo/CL_4030025> rdfs:label "renal cortical fibroblast" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000681>,
+        <http://purl.obolibrary.org/obo/CL_1000692> .
+
+<http://purl.obolibrary.org/obo/CL_4030038> rdfs:label "CD24-positive, CD-133-positive, vimentin-positive proximal tubular cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002306> .
+
+<http://purl.obolibrary.org/obo/CL_0001291> rdfs:label "thick ascending limb of loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0009035> .
+
+<http://purl.obolibrary.org/obo/CL_0001292> rdfs:label "distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006534>,
+        <http://purl.obolibrary.org/obo/CL_0006853> .
+
+<http://purl.obolibrary.org/obo/CL_0002188> rdfs:label "glomerular endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1000746> .
+
+<http://purl.obolibrary.org/obo/CL_0004193> rdfs:label "loop of Henle ascending limb thin segment" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0004194> rdfs:label "long nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001285> .
+
+<http://purl.obolibrary.org/obo/CL_0004195> rdfs:label "short nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001285> .
+
+<http://purl.obolibrary.org/obo/CL_0004196> rdfs:label "proximal convoluted tubule segment 1" .
+
+<http://purl.obolibrary.org/obo/CL_0004200> rdfs:label "kidney pyramid" .
+
+<http://purl.obolibrary.org/obo/CL_0004203> rdfs:label "cortical collecting duct" .
+
+<http://purl.obolibrary.org/obo/CL_0004206> rdfs:label "long descending thin limb bend" .
+
+<http://purl.obolibrary.org/obo/CL_0004207> rdfs:label "prebend segment of loop of Henle" .
+
+<http://purl.obolibrary.org/obo/CL_0004788> rdfs:label "kidney pelvis urothelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_0005096> rdfs:label "descending thin limb" .
+
+<http://purl.obolibrary.org/obo/CL_0005099> rdfs:label "short descending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005100> rdfs:label "long descending thin limb" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005101> rdfs:label "early distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005102> rdfs:label "late distal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005135> rdfs:label "metanephric glomerular epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004188>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_0005777> rdfs:label "glomerular basement membrane" .
+
+<http://purl.obolibrary.org/obo/CL_0006337> rdfs:label "distal early tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0035762> rdfs:label "capillary network of kidney" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006544> .
+
+<http://purl.obolibrary.org/obo/CL_1000452> a owl:Class ;
+    rdfs:label "parietal epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000450> .
+
+<http://purl.obolibrary.org/obo/CL_1000453> a owl:Class ;
+    rdfs:label "epithelial cell of intermediate tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000909> .
+
+<http://purl.obolibrary.org/obo/CL_1000681> rdfs:label "kidney cortex interstitial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000715> rdfs:label "kidney cortex collecting duct intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000549>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
+<http://purl.obolibrary.org/obo/CL_1001107> a owl:Class ;
+    rdfs:label "kidney loop of Henle thin ascending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000617>,
+        <http://purl.obolibrary.org/obo/CL_1001016> .
+
+<http://purl.obolibrary.org/obo/CL_1001216> rdfs:label "interlobulary artery endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1001138> .
+
+<http://purl.obolibrary.org/obo/CL_1001217> rdfs:label "interlobulary artery smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001064>,
+        <http://purl.obolibrary.org/obo/CL_1001138> .
+
+ns1:c24bce2c-1c41-42ad-8db1-f980d92f3e23 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1001107> ],
+        ns1:CellSet ;
+    rdfs:label "kidney loop of Henle thin ascending limb epithelial cell" ;
+    ns1:cell_type "kidney loop of Henle thin ascending limb epithelial cell" ;
+    ns1:subclass.l1 "ATL/TAL" .
+
+ns1:d62d6d67-d5f9-4fd1-98bf-690dd0fa88c7 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1000768> ],
+        ns1:CellSet ;
+    rdfs:label "kidney connecting tubule epithelial cell" ;
+    ns1:cell_type "kidney connecting tubule epithelial cell" ;
+    ns1:subclass.l1 "CNT" .
+
+ns1:d9101205-ffbb-462b-8884-105d05a1cee4 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1000849> ],
+        ns1:CellSet ;
+    rdfs:label "kidney distal convoluted tubule epithelial cell" ;
+    ns1:cell_type "kidney distal convoluted tubule epithelial cell" ;
+    ns1:subclass.l1 "DCT" .
+
+<http://purl.obolibrary.org/obo/CL_0001225> rdfs:label "cortex of kidney" .
+
+<http://purl.obolibrary.org/obo/CL_0001287> rdfs:label "proximal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006534>,
+        <http://purl.obolibrary.org/obo/CL_0006853> .
+
+<http://purl.obolibrary.org/obo/CL_0001288> rdfs:label "loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0001290> rdfs:label "proximal straight tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006853>,
+        <http://purl.obolibrary.org/obo/CL_0009035> .
+
+<http://purl.obolibrary.org/obo/CL_0002015> rdfs:label "kidney capsule" .
+
+<http://purl.obolibrary.org/obo/CL_0002201> rdfs:label "renal beta-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005010> .
+
+<http://purl.obolibrary.org/obo/CL_0002303> rdfs:label "juxtaglomerular apparatus" .
+
+<http://purl.obolibrary.org/obo/CL_0002320> rdfs:label "glomerular mesangium" .
+
+<http://purl.obolibrary.org/obo/CL_0003527> rdfs:label "kidney capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003517> .
+
+<http://purl.obolibrary.org/obo/CL_0004189> rdfs:label "glomerular endothelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004188> .
+
+<http://purl.obolibrary.org/obo/CL_0004190> rdfs:label "renal glomerulus vasculature" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006544> .
+
+<http://purl.obolibrary.org/obo/CL_0004198> rdfs:label "comma-shaped body" .
+
+<http://purl.obolibrary.org/obo/CL_0004199> rdfs:label "S-shaped body" .
+
+<http://purl.obolibrary.org/obo/CL_0004810> rdfs:label "nephron tubule epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005006> rdfs:label "mucosa of renal pelvis" .
+
+<http://purl.obolibrary.org/obo/CL_0005009> a owl:Class ;
+    rdfs:label "renal principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002518> .
+
+<http://purl.obolibrary.org/obo/CL_0005011> rdfs:label "renal alpha-intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005010> .
+
+<http://purl.obolibrary.org/obo/CL_0005097> rdfs:label "renal connecting tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0005106> rdfs:label "metanephric tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005108> .
+
+<http://purl.obolibrary.org/obo/CL_0005110> rdfs:label "metanephric nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001285> .
+
+<http://purl.obolibrary.org/obo/CL_0005270> rdfs:label "renal cortex interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005215> .
+
+<http://purl.obolibrary.org/obo/CL_0005272> rdfs:label "peritubular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003527> .
+
+<http://purl.obolibrary.org/obo/CL_0006517> rdfs:label "kidney calyx" .
+
+<http://purl.obolibrary.org/obo/CL_0006534> rdfs:label "renal convoluted tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0009035> rdfs:label "renal straight tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0009201> rdfs:label "nephric duct" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819>,
+        <http://purl.obolibrary.org/obo/CL_0006553> .
+
+<http://purl.obolibrary.org/obo/CL_0018113> rdfs:label "left kidney interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005215> .
+
+<http://purl.obolibrary.org/obo/CL_0018114> rdfs:label "right kidney interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005215> .
+
+<http://purl.obolibrary.org/obo/CL_0034996> rdfs:label "outer renal medulla loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0034997> .
+
+<http://purl.obolibrary.org/obo/CL_0034997> rdfs:label "renal medulla loop of Henle" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001288> .
+
+<http://purl.obolibrary.org/obo/CL_1000450> a owl:Class ;
+    rdfs:label "epithelial cell of glomerular capsule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000510> .
+
+<http://purl.obolibrary.org/obo/CL_1000454> a owl:Class ;
+    rdfs:label "kidney collecting duct epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000510> a owl:Class ;
+    rdfs:label "kidney glomerular epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000746> .
+
+<http://purl.obolibrary.org/obo/CL_1000547> rdfs:label "kidney inner medulla collecting duct epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000617>,
+        <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000548> rdfs:label "kidney outer medulla collecting duct epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000549> rdfs:label "kidney cortex collecting duct epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002681>,
+        <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000550> rdfs:label "kidney papillary duct principal epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001225> .
+
+<http://purl.obolibrary.org/obo/CL_1000692> rdfs:label "kidney interstitial fibroblast" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_1000768> a owl:Class ;
+    rdfs:label "kidney connecting tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000494>,
+        <http://purl.obolibrary.org/obo/CL_1000615> .
+
+<http://purl.obolibrary.org/obo/CL_1001006> rdfs:label "kidney afferent arteriole cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000612>,
+        <http://purl.obolibrary.org/obo/CL_1000891> .
+
+<http://purl.obolibrary.org/obo/CL_1001009> rdfs:label "kidney efferent arteriole cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000612>,
+        <http://purl.obolibrary.org/obo/CL_1000891> .
+
+<http://purl.obolibrary.org/obo/CL_1001016> a owl:Class ;
+    rdfs:label "kidney loop of Henle ascending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002305>,
+        <http://purl.obolibrary.org/obo/CL_1000909> .
+
+<http://purl.obolibrary.org/obo/CL_1001021> a owl:Class ;
+    rdfs:label "kidney loop of Henle descending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000909> .
+
+<http://purl.obolibrary.org/obo/CL_1001033> rdfs:label "peritubular capillary endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000892> .
+
+<http://purl.obolibrary.org/obo/CL_1001045> rdfs:label "kidney cortex artery cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000891> .
+
+<http://purl.obolibrary.org/obo/CL_1001052> rdfs:label "kidney cortex vein cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000893> .
+
+<http://purl.obolibrary.org/obo/CL_1001064> rdfs:label "kidney artery smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000891> .
+
+<http://purl.obolibrary.org/obo/CL_1001066> rdfs:label "kidney arteriole smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000891> .
+
+<http://purl.obolibrary.org/obo/CL_1001068> rdfs:label "kidney venous system smooth muscle cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000893> .
+
+<http://purl.obolibrary.org/obo/CL_1001126> rdfs:label "inner renal medulla vasa recta cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000617>,
+        <http://purl.obolibrary.org/obo/CL_1001036> .
+
+<http://purl.obolibrary.org/obo/CL_1001127> rdfs:label "outer renal medulla vasa recta cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001036> .
+
+<http://purl.obolibrary.org/obo/CL_1001131> rdfs:label "vasa recta ascending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001036> .
+
+<http://purl.obolibrary.org/obo/CL_1001135> rdfs:label "arcuate artery cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001045> .
+
+<http://purl.obolibrary.org/obo/CL_1001138> rdfs:label "interlobular artery cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001045> .
+
+<http://purl.obolibrary.org/obo/CL_1001142> rdfs:label "arcuate vein cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001052> .
+
+<http://purl.obolibrary.org/obo/CL_1001145> rdfs:label "interlobular vein cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001052> .
+
+<http://purl.obolibrary.org/obo/CL_1001285> rdfs:label "vasa recta descending limb cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1001036> .
+
+<http://purl.obolibrary.org/obo/CL_1001318> rdfs:label "renal interstitial pericyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500> .
+
+<http://purl.obolibrary.org/obo/CL_4030019> rdfs:label "kidney connecting tubule intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005010>,
+        <http://purl.obolibrary.org/obo/CL_1000768> .
+
+ns1:949d7b2e-e172-46f7-8ce8-f4d8328701c2 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1001106> ],
+        ns1:CellSet ;
+    rdfs:label "kidney loop of Henle thick ascending limb epithelial cell" ;
+    ns1:cell_type "kidney loop of Henle thick ascending limb epithelial cell" ;
+    ns1:subclass.l1 "TAL" .
+
+<http://purl.obolibrary.org/obo/CL_0000074> rdfs:label "renal glomerulus" .
+
+<http://purl.obolibrary.org/obo/CL_0000084> rdfs:label "ureteric bud" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000083> .
+
+<http://purl.obolibrary.org/obo/CL_0001224> rdfs:label "renal pelvis" .
+
+<http://purl.obolibrary.org/obo/CL_0002305> a owl:Class ;
+    rdfs:label "epithelial cell of distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000494>,
+        <http://purl.obolibrary.org/obo/CL_1000615> .
+
+<http://purl.obolibrary.org/obo/CL_0003517> rdfs:label "kidney blood vessel" .
+
+<http://purl.obolibrary.org/obo/CL_0004134> rdfs:label "proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0006853> .
+
+<http://purl.obolibrary.org/obo/CL_0004212> rdfs:label "glomerular capillary" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003527> .
+
+<http://purl.obolibrary.org/obo/CL_0005103> rdfs:label "mesonephric epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_0005108> rdfs:label "metanephric epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_0006544> rdfs:label "kidney vasculature" .
+
+<http://purl.obolibrary.org/obo/CL_1000505> rdfs:label "kidney pelvis cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_1000612> a owl:Class ;
+    rdfs:label "kidney corpuscule cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000449> .
+
+<http://purl.obolibrary.org/obo/CL_1000615> a owl:Class ;
+    rdfs:label "kidney cortex tubule cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_1000618> rdfs:label "juxtaglomerular complex cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002681> .
+
+<http://purl.obolibrary.org/obo/CL_1000682> rdfs:label "kidney medulla interstitial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000500>,
+        <http://purl.obolibrary.org/obo/CL_1000504> .
+
+<http://purl.obolibrary.org/obo/CL_1000746> a owl:Class ;
+    rdfs:label "glomerular cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000612> .
+
+<http://purl.obolibrary.org/obo/CL_1000849> a owl:Class ;
+    rdfs:label "kidney distal convoluted tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002305> .
+
+<http://purl.obolibrary.org/obo/CL_1000854> rdfs:label "kidney blood vessel cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002584>,
+        <http://purl.obolibrary.org/obo/CL_1000504> .
+
+<http://purl.obolibrary.org/obo/CL_1000892> rdfs:label "kidney capillary endothelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_1000854> .
+
+<http://purl.obolibrary.org/obo/CL_1000893> rdfs:label "kidney venous blood vessel cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000854> .
+
+<http://purl.obolibrary.org/obo/CL_1000909> a owl:Class ;
+    rdfs:label "kidney loop of Henle epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000494> .
+
+<http://purl.obolibrary.org/obo/CL_1001106> a owl:Class ;
+    rdfs:label "kidney loop of Henle thick ascending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000504>,
+        <http://purl.obolibrary.org/obo/CL_1001016> .
+
+ns1:34683655-4485-43f3-b610-53a0edc1cb73 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1001432> ],
+        ns1:CellSet ;
+    rdfs:label "kidney collecting duct intercalated cell" ;
+    ns1:cell_type "kidney collecting duct intercalated cell" ;
+    ns1:subclass.l1 "IC" .
+
+<http://purl.obolibrary.org/obo/CL_0000653> a owl:Class ;
+    rdfs:label "podocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000450> .
+
+<http://purl.obolibrary.org/obo/CL_0001231> rdfs:label "nephron tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0002335> rdfs:label "macula densa" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0004135> rdfs:label "distal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0005010> a owl:Class ;
+    rdfs:label "renal intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449> .
+
+<http://purl.obolibrary.org/obo/CL_0005211> rdfs:label "renal medulla interstitium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005215> .
+
+<http://purl.obolibrary.org/obo/CL_0006171> rdfs:label "renal sinus" .
+
+<http://purl.obolibrary.org/obo/CL_0010532> rdfs:label "primitive nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_1000494> a owl:Class ;
+    rdfs:label "nephron tubule epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000449>,
+        <http://purl.obolibrary.org/obo/CL_1000507> .
+
+<http://purl.obolibrary.org/obo/CL_1001036> rdfs:label "vasa recta cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000892>,
+        <http://purl.obolibrary.org/obo/CL_1000893> .
+
+<http://purl.obolibrary.org/obo/CL_1001111> a owl:Class ;
+    rdfs:label "kidney loop of Henle thin descending limb epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000453>,
+        <http://purl.obolibrary.org/obo/CL_1000616>,
+        <http://purl.obolibrary.org/obo/CL_1001021> .
+
+ns1:87779d82-5153-46f4-9702-5e84e76004ac a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1001431> ],
+        ns1:CellSet ;
+    rdfs:label "kidney collecting duct principal cell" ;
+    ns1:cell_type "kidney collecting duct principal cell" ;
+    ns1:subclass.l1 "PC" .
+
+ns1:d6debc7e-1a75-4ed5-b136-8065c32f3c28 a ns1:CellSet ;
+    ns1:ClusterClass "stromal cells" .
+
+<http://purl.obolibrary.org/obo/CL_0000738> rdfs:label "leukocyte" .
+
+<http://purl.obolibrary.org/obo/CL_0001232> rdfs:label "collecting duct of renal tubule" .
+
+<http://purl.obolibrary.org/obo/CL_0001285> rdfs:label "nephron" .
+
+<http://purl.obolibrary.org/obo/CL_0002518> a owl:Class ;
+    rdfs:label "kidney epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_0002681> a owl:Class ;
+    rdfs:label "kidney cortical cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_0004188> rdfs:label "glomerular epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211> .
+
+<http://purl.obolibrary.org/obo/CL_0005215> rdfs:label "kidney interstitium" .
+
+<http://purl.obolibrary.org/obo/CL_0005310> rdfs:label "pronephric nephron tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001231> .
+
+<http://purl.obolibrary.org/obo/CL_0006553> rdfs:label "renal duct" .
+
+<http://purl.obolibrary.org/obo/CL_0006853> rdfs:label "renal cortex tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0007685> .
+
+<http://purl.obolibrary.org/obo/CL_0014401> rdfs:label "renal venous blood vessel" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003517> .
+
+<http://purl.obolibrary.org/obo/CL_1000617> a owl:Class ;
+    rdfs:label "kidney inner medulla cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000504> .
+
+<http://purl.obolibrary.org/obo/CL_1000891> rdfs:label "kidney arterial blood vessel cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000854> .
+
+<http://purl.obolibrary.org/obo/CL_1001431> a owl:Class ;
+    rdfs:label "kidney collecting duct principal cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005009>,
+        <http://purl.obolibrary.org/obo/CL_1000454> .
+
+ns1:0f96b41e-40d8-4edb-8900-b901740c69db a ns1:CellSet ;
+    rdfs:label "endothelial cell" ;
+    ns1:cell_type "endothelial cell" ;
+    ns1:subclass.l1 "EC" ;
+    ns1:subcluster_of ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 .
+
+ns1:154fc1ff-36a5-48a9-bb83-3c6fd5fb7c86 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0002306> ],
+        ns1:CellSet ;
+    rdfs:label "epithelial cell of proximal tubule" ;
+    ns1:cell_type "epithelial cell of proximal tubule" ;
+    ns1:subclass.l1 "PT" .
+
+<http://purl.obolibrary.org/obo/CL_0002584> a owl:Class ;
+    rdfs:label "renal cortical epithelial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002518>,
+        <http://purl.obolibrary.org/obo/CL_0002681> .
+
+<http://purl.obolibrary.org/obo/CL_0003644> rdfs:label "kidney arterial blood vessel" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0003517> .
+
+<http://purl.obolibrary.org/obo/CL_0005330> rdfs:label "mesonephric nephron epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211>,
+        <http://purl.obolibrary.org/obo/CL_0005103> .
+
+<http://purl.obolibrary.org/obo/CL_1000504> a owl:Class ;
+    rdfs:label "kidney medulla cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_1000507> a owl:Class ;
+    rdfs:label "kidney tubule cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_1001225> a owl:Class ;
+    rdfs:label "kidney collecting duct cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+<http://purl.obolibrary.org/obo/CL_1001432> a owl:Class ;
+    rdfs:label "kidney collecting duct intercalated cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005010>,
+        <http://purl.obolibrary.org/obo/CL_1000454> .
+
+ns1:bce72f91-b0be-4a15-8143-a3f5aca196c6 a [ a owl:Restriction ;
+            owl:onProperty ns1:consist_of ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_1000500> ],
+        ns1:CellSet ;
+    rdfs:label "kidney interstitial cell" ;
+    ns1:cell_type "kidney interstitial cell" ;
+    ns1:subclass.l1 "Interstitial" .
+
+ns1:cace5b44-edca-4f23-92cf-48d22f1657b1 a ns1:CellSet ;
+    ns1:ClusterClass "endothelial cells" .
+
+<http://purl.obolibrary.org/obo/CL_0000115> rdfs:label "endothelial cell" .
+
+<http://purl.obolibrary.org/obo/CL_0005134> rdfs:label "metanephric nephron epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004211>,
+        <http://purl.obolibrary.org/obo/CL_0005108> .
+
+<http://purl.obolibrary.org/obo/CL_1000497> a owl:Class ;
+    rdfs:label "kidney cell" .
+
+<http://purl.obolibrary.org/obo/CL_1000616> a owl:Class ;
+    rdfs:label "kidney outer medulla cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000504> .
+
+<http://purl.obolibrary.org/obo/CL_0002306> a owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000494>,
+        <http://purl.obolibrary.org/obo/CL_1000615> .
+
+<http://purl.obolibrary.org/obo/CL_0004819> rdfs:label "kidney epithelium" .
+
+<http://purl.obolibrary.org/obo/CL_0005146> rdfs:label "metanephric nephron tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001231>,
+        <http://purl.obolibrary.org/obo/CL_0005106>,
+        <http://purl.obolibrary.org/obo/CL_0005134> .
+
+<http://purl.obolibrary.org/obo/CL_1000449> a owl:Class ;
+    rdfs:label "epithelial cell of nephron" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0002518> .
+
+<http://purl.obolibrary.org/obo/CL_0007685> rdfs:label "region of nephron tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0001231> .
+
+<http://purl.obolibrary.org/obo/CL_0000083> rdfs:label "mesonephric tubule" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0005103> .
+
+<http://purl.obolibrary.org/obo/CL_0004211> rdfs:label "nephron epithelium" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0004819> .
+
+<http://purl.obolibrary.org/obo/CL_1000500> a owl:Class ;
+    rdfs:label "kidney interstitial cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_1000497> .
+
+ns1:b439decd-d73f-4c87-9d4d-78c443a5d652 a ns1:CellSet ;
+    ns1:ClusterClass "immune cells" .
+
+ns1:7ef174d3-b227-4d8f-936c-3ed4e15090bd a ns1:CellSet ;
+    ns1:ClusterClass "epithelial cells" .
+
+ns1:416acea8-dffc-457f-8aad-7af3feac46d4 a ns1:CellSet ;
+    rdfs:label "leukocyte" ;
+    ns1:cell_type "leukocyte" ;
+    ns1:subclass.l1 "Immune" .
+
+ns1:CellSet a owl:Class .
+
