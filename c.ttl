@@ -1,0 +1,158 @@
+@prefix ns1: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:0eb192fa-efe3-421d-9278-19e9d3af69b3 a <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "naive B cell" ;
+    ns1:author_cell_type "naive B cell" ;
+    ns1:cell_type "naive B cell" .
+
+ns1:5e2fa655-439c-42a9-8c1b-de2a58ee79f0 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0002489> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "double negative T cell (DNT)" ;
+    ns1:author_cell_type "double negative T cell (DNT)" ;
+    ns1:cell_type "double negative thymocyte" .
+
+ns1:6535a416-cc33-48ba-8ff5-9926507e16b8 a <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "memory B cell" ;
+    ns1:author_cell_type "memory B cell" ;
+    ns1:cell_type "memory B cell" .
+
+ns1:6d74df9f-6a7c-48eb-95d8-99251b1ef45a a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000940> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "mucosal invariant T cell (MAIT)" ;
+    ns1:author_cell_type "mucosal invariant T cell (MAIT)" ;
+    ns1:cell_type "mucosal invariant T cell" .
+
+ns1:6ea2a85f-1889-48f6-95f8-1b89b83ca3d5 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000084> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "TCRVbeta13.1pos" ;
+    ns1:author_cell_type "TCRVbeta13.1pos" ;
+    ns1:cell_type "T cell" .
+
+ns1:74398f61-ed25-4543-9653-0e4bc07319a7 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000798> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "gamma-delta T cell" ;
+    ns1:author_cell_type "gamma-delta T cell" ;
+    ns1:cell_type "gamma-delta T cell" .
+
+ns1:764ff633-7978-490c-83e3-b56cbd683532 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000909> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "CD8-positive, alpha-beta memory T cell" ;
+    ns1:author_cell_type "CD8-positive, alpha-beta memory T cell" ;
+    ns1:cell_type "CD8-positive, alpha-beta memory T cell" .
+
+ns1:80fe1431-fb3d-4e09-a811-dde166f127ab a <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "plasmablast" ;
+    ns1:author_cell_type "plasmablast" ;
+    ns1:cell_type "plasmablast" .
+
+ns1:a252cdc8-5a10-4b0f-9e5b-b26cec86f266 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000813> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "TissueResMemT" ;
+    ns1:author_cell_type "TissueResMemT" ;
+    ns1:cell_type "memory T cell" .
+
+ns1:ae3c191d-af50-4f9a-a71f-d1d9ba831563 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000815> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "regulatory T cell" ;
+    ns1:author_cell_type "regulatory T cell" ;
+    ns1:cell_type "regulatory T cell" .
+
+ns1:c1c9234f-ae77-4898-9b01-e80141159a9e a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000809> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "double-positive T cell (DPT)" ;
+    ns1:author_cell_type "double-positive T cell (DPT)" ;
+    ns1:cell_type "double-positive, alpha-beta thymocyte" .
+
+ns1:c1eefb77-04b6-4da9-8477-d58488786fba a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000895> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "naive CD4+ T cell" ;
+    ns1:author_cell_type "naive CD4+ T cell" ;
+    ns1:cell_type "naive thymus-derived CD4-positive, alpha-beta T cell" .
+
+ns1:c20d5e8f-5c38-450a-8314-98f9543a763a a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000897> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "CD4-positive, alpha-beta memory T cell" ;
+    ns1:author_cell_type "CD4-positive, alpha-beta memory T cell" ;
+    ns1:cell_type "CD4-positive, alpha-beta memory T cell" .
+
+ns1:d70db372-cf4b-4500-86af-6d105ad9a811 a [ a owl:Restriction ;
+            owl:onProperty <http://purl.obolibrary.org/obo/RO_0002473> ;
+            owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000900> ],
+        <http://purl.obolibrary.org/obo/PCL_0010001> ;
+    rdfs:label "naive CD8+ T cell" ;
+    ns1:author_cell_type "naive CD8+ T cell" ;
+    ns1:cell_type "naive thymus-derived CD8-positive, alpha-beta T cell" .
+
+<http://purl.obolibrary.org/obo/RO_0015003> a owl:ObjectProperty ;
+    rdfs:label "subcluster of" .
+
+<http://purl.obolibrary.org/obo/CL_0000798> a owl:Class ;
+    rdfs:label "gamma-delta T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000809> a owl:Class ;
+    rdfs:label "double-positive, alpha-beta thymocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000815> a owl:Class ;
+    rdfs:label "regulatory T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000895> a owl:Class ;
+    rdfs:label "naive thymus-derived CD4-positive, alpha-beta T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000897> a owl:Class ;
+    rdfs:label "CD4-positive, alpha-beta memory T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000813> .
+
+<http://purl.obolibrary.org/obo/CL_0000900> a owl:Class ;
+    rdfs:label "naive thymus-derived CD8-positive, alpha-beta T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000909> a owl:Class ;
+    rdfs:label "CD8-positive, alpha-beta memory T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000813> .
+
+<http://purl.obolibrary.org/obo/CL_0000940> a owl:Class ;
+    rdfs:label "mucosal invariant T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0002489> a owl:Class ;
+    rdfs:label "double negative thymocyte" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000813> a owl:Class ;
+    rdfs:label "memory T cell" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/CL_0000084> .
+
+<http://purl.obolibrary.org/obo/CL_0000084> a owl:Class ;
+    rdfs:label "T cell" .
+
+<http://purl.obolibrary.org/obo/RO_0002473> rdfs:label "composed_primarily_of" .
+
+<http://purl.obolibrary.org/obo/PCL_0010001> a owl:Class ;
+    rdfs:label "cell cluster" .
+
